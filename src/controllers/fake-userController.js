@@ -9,7 +9,7 @@ function fakeUser(req, res) {
         return res.status(200).json(users[n]);
     }
     catch (err) {
-        return res.status(400).json({"error": err});
+        return res.status(400).json({error: err});
     }
 }
 
@@ -25,11 +25,22 @@ function selectFakeUser(req, res) {
         return res.status(200).json(users[id - 1]);
     }
     catch (err) {
-        return res.status(400).json({"error": err})
+        return res.status(400).json({error: err})
+    }
+}
+
+//Função para retornar todos os usuários fakes
+function allFakeUsers(req, res) {
+    try {
+        return res.status(200).json(users);
+    }
+    catch (err) {
+        return res.status(400).json({error: err});
     }
 }
 
 module.exports = {
     fakeUser,
-    selectFakeUser
+    selectFakeUser,
+    allFakeUsers
 }
