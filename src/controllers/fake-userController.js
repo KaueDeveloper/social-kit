@@ -13,6 +13,23 @@ function fakeUser(req, res) {
     }
 }
 
+//Função para gerar um usuário fake selecionado
+function selectFakeUser(req, res) {
+    const id = req.params.id
+
+    if(id > users.length) {
+        res.status(400).json({error: `A API posui apenas ${users.length} usuários fakes`});
+    }
+
+    try {
+        return res.status(200).json(users[id - 1]);
+    }
+    catch (err) {
+        return res.status(400).json({"error": err})
+    }
+}
+
 module.exports = {
-    fakeUser
+    fakeUser,
+    selectFakeUser
 }
