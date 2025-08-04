@@ -79,11 +79,39 @@ function allFakeUsers(req, res) {
     }
 }
 
+//Função para retornar todos os usuários fakes femininos ou masculinos
+function allFakeUsersForGender(req, res) {
+    const gender = req.params.gender;
+    const fakeUsers = [];
+
+    try {
+        for(let i = 0; i < users.length; i++) {
+            if(gender === "f") {
+                if(users[i].gender === 'Feminino') {
+                    fakeUsers.push(users[i]);
+                }
+            }else if(gender === "m") {
+                if(users[i].gender === 'Masculino') {
+                    fakeUsers.push(users[i]);
+                }
+            }else {
+                return res.status(400).json({error: `${gender} não é um gênero válido, apenas as letras m e f são permitidos`})
+            }
+        }
+
+        return res.status(200).json(fakeUsers);
+    }
+    catch (err) {
+        return res.status(400).josn({error: err})
+    }
+}
+
 module.exports = {
     fakeUser,
     selectFakeUser,
     allFakeUsers,
     fakeUserForGender,
     userForGenderError,
-    selectFakeUserError
+    selectFakeUserError,
+    allFakeUsersForGender
 }

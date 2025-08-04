@@ -20,4 +20,7 @@ router.get('/fakeUser/id', fakeUserController.selectFakeUserError);
 //Rota para retornar todos os usuários fakes
 router.get('/fakeUser/all', fakeUserController.allFakeUsers);
 
+//Rota para retornar todos os usuários fakes femininos ou masculinos
+router.get('/fakeUser/all/:gender', fakeUserController.allFakeUsersForGender);
+
 module.exports = router;
