@@ -13,7 +13,7 @@ function fakeUser(req, res) {
     }
 }
 
-//Função para gerar um usuário fake aleatório feminino ou masculino
+//Função para gerar um usuário fake aleatório por gênero
 function fakeUserForGender(req, res) {
     const gender = req.params.gender;
     const fakeUsers = [];
@@ -79,7 +79,7 @@ function allFakeUsers(req, res) {
     }
 }
 
-//Função para retornar todos os usuários fakes femininos ou masculinos
+//Função para retornar todos os usuários fakes por gênero
 function allFakeUsersForGender(req, res) {
     const gender = req.params.gender;
     const fakeUsers = [];
