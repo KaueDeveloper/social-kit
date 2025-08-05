@@ -1,3 +1,5 @@
+//Rotas de geração de usuários fakes
+
 const express = require('express');
 const router = express.Router();
 const fakeUserController = require('../controllers/fake-userController');
