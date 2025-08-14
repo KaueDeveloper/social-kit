@@ -5,12 +5,16 @@ const path = require('path');
 //Rotas
 const fakeUserRoutes = require('./src/routes/fake-user');
 const emailRoutes = require('./src/routes/email');
+const nameRoutes = require('./src/routes/name');
 
 //Rotas de usuários fakes
 API.use('/', fakeUserRoutes);
 
 //Rotas de validação e geração de emails
 API.use('/', emailRoutes);
+
+//Rotas de nomes fakes
+API.use('/', nameRoutes);
 
 API.listen(8080, () => {
     console.log('Servidor rodando');

@@ -1,3 +1,5 @@
+//Array de emails fakes
+
 const fakeEmails = [
   //Domínios gmail.com
   "paula.ibrahim41@gmail.com",

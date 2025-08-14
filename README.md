@@ -11,6 +11,14 @@ Utilitários essenciais para construção de redes sociais: validação de dados
 /fakeUser/all/f - gera todos os usuários fakes femininos
 /fakeUser/all/m - gera todos os usuários fakes masculinos
 
+--Geração de nomes--
+/name - gera um nome aleatório
+/name/gender/f - gera um nome aleatório feminino
+/name/gender/m - gera um nome aleatório masculino
+/name/all - gera todos os nomes fakes
+/name/all/f - gera todos os nomes fakes femininos
+/name/all/m - gera todos os nomes fakes masculinos
+
 --Validações de email--
 /isEmail - faz a validação de email
 /isEmail/:domain - faz a validação de email por domínio
