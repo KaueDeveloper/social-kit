@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const nameControllers = require('../controllers/namesController');
+const nameControllers = require('../controllers/nameControllers');
 
 //Rota para gerar um nome aleatório fake
 router.get('/name', nameControllers.fakeName);

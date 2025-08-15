@@ -43,7 +43,7 @@ function fakeUserForGender(req, res) {
 
 //Função de erro ao não informar nenhum gênero
 function userForGenderError(req, res) {
-    return res.status(400).json({error: "Você deve fornecer um gênero. Ex: fakeUser/gender/m ou fakeUser/gender/f"});
+    return res.status(400).json({error: "Você deve fornecer um gênero. Ex: /fakeUser/gender/m ou /fakeUser/gender/f"});
 }
 
 //Função para gerar um usuário fake selecionado
@@ -66,7 +66,7 @@ function selectFakeUser(req, res) {
 
 //Função de erro ao não informar nenhum id de usuário fake
 function selectFakeUserError(req, res) {
-    return res.status(400).json({error: "Você deve fornecer um id de um usuário fake. Ex: fakeUser/id/1"});
+    return res.status(400).json({error: "Você deve fornecer um id de um usuário fake. Ex: /fakeUser/id/1"});
 }
 
 //Função para retornar todos os usuários fakes

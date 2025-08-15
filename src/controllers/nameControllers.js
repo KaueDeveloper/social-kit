@@ -43,7 +43,7 @@ function fakeNameForGender(req, res) {
 
 //Função de erro ao não informar nenhum gênero
 function fakeNameForGenderError(req, res) {
-    return res.status(400).json({error: 'Você deve fornecer um gênero. Ex: fakeName/gender/m ou fakeName/gender/f'});
+    return res.status(400).json({error: 'Você deve fornecer um gênero. Ex: /name/gender/m ou /name/gender/f'});
 }
 
 //Função para retornar todos os nomes fakes

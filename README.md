@@ -24,3 +24,9 @@ Utilitários essenciais para construção de redes sociais: validação de dados
 /isEmail/:domain - faz a validação de email por domínio
 /email - gera um email aleatório
 /email/:domain - gera um email aleatório por domínio
+
+--Geração de avatares--
+/avatar - gera um avatar aleatório
+/avatar/gender/f - gera um avatar aleatório feminino
+/avatar/gender/m - gera um avatar aleatório masculino
+/avatar/id/(algum número) - seleciona um avatar manualmente pelo id
