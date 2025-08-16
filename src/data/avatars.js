@@ -160,6 +160,86 @@ const avatars = [
     {
         photo: 'photo40.png',
         gender: 'Feminino'
+    },
+    {
+        photo: 'photo41.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo42.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo43.png',
+        gender: 'Masculino'
+    },
+    {
+        photo: 'photo44.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo45.png',
+        gender: 'Masculino'
+    },
+    {
+        photo: 'photo46.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo47.png',
+        gender: 'Masculino'
+    },
+    {
+        photo: 'photo48.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo49.png',
+        gender: 'Masculino'
+    },
+    {
+        photo: 'photo50.png',
+        gender: 'Masculino'
+    },
+    {
+        photo: 'photo51.png',
+        gender: 'Masculino'
+    },
+    {
+        photo: 'photo52.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo53.png',
+        gender: 'Masculino'
+    },
+    {
+        photo: 'photo54.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo55.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo56.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo57.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo58.png',
+        gender: 'Feminino'
+    },
+    {
+        photo: 'photo59.png',
+        gender: 'Masculino'
+    },
+    {
+        photo: 'photo60.png',
+        gender: 'Feminino'
     }
 ]
 
