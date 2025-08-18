@@ -22,7 +22,7 @@ const fakeUsers = [
         username: 'eu_jef',
         email: 'jefalbuquerque@fakemail.com',
         avatar: '../assets/images/photo02.png',
-        bio: 'Procurando novos desafios, adoro musicas🎶',
+        bio: 'Violinista, adoro musicas🎶',
         gender: 'Masculino',
         birthdate: '14-08-1992',
         country: 'Brasil',
