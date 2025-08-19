@@ -4,14 +4,17 @@ const express = require('express');
 const router = express.Router();
 const fakeUserControllers = require('../controllers/fake-userControllers');
 
+//Rota de erro para parâmetros incompletos
+router.get('/fakeUser', fakeUserControllers.fakeUserError);
+
 //Rota para gerar um usuário fake aleatório
-router.get('/fakeUser', fakeUserControllers.fakeUser);
+router.get('/fakeUser/random', fakeUserControllers.fakeUser);
 
 //Rota para gerar um usuário fake aleatório por gênero
-router.get('/fakeUser/gender/:gender', fakeUserControllers.fakeUserForGender);
+router.get('/fakeUser/random/gender/:gender', fakeUserControllers.fakeUserForGender);
 
 //Rota de erro ao não informar nenhum gênero
-router.get('/fakeUser/gender', fakeUserControllers.userForGenderError);
+router.get('/fakeUser/random/gender', fakeUserControllers.userForGenderError);
 
 //Rota para selecionar um usuário fake
 router.get('/fakeUser/id/:id', fakeUserControllers.selectFakeUser);
@@ -23,6 +26,9 @@ router.get('/fakeUser/id', fakeUserControllers.selectFakeUserError);
 router.get('/fakeUser/all', fakeUserControllers.allFakeUsers);
 
 //Rota para retornar todos os usuários por gênero
-router.get('/fakeUser/all/:gender', fakeUserControllers.allFakeUsersForGender);
+router.get('/fakeUser/all/gender/:gender', fakeUserControllers.allFakeUsersForGender);
+
+//Rota de erro ao não informar nenhum gênero
+router.get('/fakeUser/all/gender', fakeUserControllers.allFakeUsersForGenderError);
 
 module.exports = router;

@@ -9,10 +9,13 @@ router.get('/isEmail', emailControllers.isEmail);
 //Rota para validar email por domínio
 router.get('/isEmail/:domain', emailControllers.isEmailForDomain);
 
+//Rota de erro para rota incompleta
+router.get('/email', emailControllers.emailError);
+
 //Rota para gerar um email aleatório
-router.get('/email', emailControllers.email);
+router.get('/email/random', emailControllers.email);
 
 //Rota para gerar um email aleatório por domínio
-router.get('/email/:domain', emailControllers.emailForDomain);
+router.get('/email/random/:domain', emailControllers.emailForDomain);
 
 module.exports = router;

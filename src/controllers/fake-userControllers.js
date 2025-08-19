@@ -1,6 +1,11 @@
 //Controladores das rotas de usuários fakes
 const users = require('../data/fakeUsers');
 
+//Função para parâmetros incompletos
+function fakeUserError(req, res) {
+    return res.status(400).json({error: 'Rota incompleta'});
+}
+
 //Função para gerar um usário fake aleatório
 function fakeUser(req, res) {
     let n = Math.floor(Math.random() * users.length);
@@ -43,7 +48,7 @@ function fakeUserForGender(req, res) {
 
 //Função de erro ao não informar nenhum gênero
 function userForGenderError(req, res) {
-    return res.status(400).json({error: "Você deve fornecer um gênero. Ex: /fakeUser/gender/m ou /fakeUser/gender/f"});
+    return res.status(400).json({error: "Você deve fornecer um gênero. Ex: /fakeUser/random/gender/m ou /fakeUser/random/gender/f"});
 }
 
 //Função para gerar um usuário fake selecionado
@@ -106,12 +111,19 @@ function allFakeUsersForGender(req, res) {
     }
 }
 
+//Função de erro ao não informar nenhum gênero
+function allFakeUsersForGenderError(req, res) {
+    return res.status(400).json({error: 'Você deve fornecer um gênero. Ex: /fakeUser/all/gender/f ou /fakeUser/all/gender/m'});
+}
+
 module.exports = {
+    fakeUserError,
     fakeUser,
     selectFakeUser,
     allFakeUsers,
     fakeUserForGender,
     userForGenderError,
     selectFakeUserError,
-    allFakeUsersForGender
+    allFakeUsersForGender,
+    allFakeUsersForGenderError
 }

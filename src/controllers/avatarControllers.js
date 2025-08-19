@@ -3,6 +3,11 @@ const { error } = require('console');
 const avatars = require('../data/avatars');
 const path = require('path');
 
+//Função de erro para parâmetro incompletos
+function avatarError(req, res) {
+    return res.status(400).json({error: 'Rota incompleta'});
+}
+
 //Função para gerar um avatar aleatório
 function randomAvatar(req, res) {
     const u = Math.floor(Math.random() * avatars.length);
@@ -45,7 +50,7 @@ function avatarForGender(req, res) {
 
 //Função de erro ao não informar nenhum gênero
 function avatarForGenderError(req, res) {
-    return res.status(400).json({error: 'Você deve fornecer um gênero. Ex: /avatar/gender/m ou avatar/gender/f'})
+    return res.status(400).json({error: 'Você deve fornecer um gênero. Ex: /avatar/random/gender/m ou /avatar/random/gender/f'})
 }
 
 //Função para selecionar um avatar pelo id
@@ -72,6 +77,7 @@ function selectAvatarError(req, res) {
 }
 
 module.exports= {
+    avatarError,
     randomAvatar,
     avatarForGender,
     avatarForGenderError,

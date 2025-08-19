@@ -1,6 +1,11 @@
 //Controladores das rotas de nomes fakes
 const names = require('../data/names');
 
+//Função de erro para parâmetros incompletos
+function nameError(req, res) {
+    return res.status(400).json({error: 'Rota incompleta'});
+}
+
 //Função para gerar um nome fake aleatório
 function fakeName(req, res) {
     let n = Math.floor(Math.random() * names.length)
@@ -43,7 +48,7 @@ function fakeNameForGender(req, res) {
 
 //Função de erro ao não informar nenhum gênero
 function fakeNameForGenderError(req, res) {
-    return res.status(400).json({error: 'Você deve fornecer um gênero. Ex: /name/gender/m ou /name/gender/f'});
+    return res.status(400).json({error: 'Você deve fornecer um gênero. Ex: /name/random/gender/m ou /name/random/gender/f'});
 }
 
 //Função para retornar todos os nomes fakes
@@ -91,6 +96,7 @@ function allFakeNamesForGender(req, res) {
 }
 
 module.exports = {
+    nameError,
     fakeName,
     fakeNameForGender,
     fakeNameForGenderError,

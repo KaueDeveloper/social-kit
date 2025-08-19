@@ -3,14 +3,17 @@ const express = require('express');
 const router = express.Router();
 const avatarControllers = require('../controllers/avatarControllers');
 
+//Rota de erro para parâmetros incompletos
+router.get('/avatar', avatarControllers.avatarError);
+
 //Rota para gerar um avatar aleatório
-router.get('/avatar', avatarControllers.randomAvatar);
+router.get('/avatar/random', avatarControllers.randomAvatar);
 
 //Rota para gerar um avatar aleatório por gênero
-router.get('/avatar/gender/:gender', avatarControllers.avatarForGender);
+router.get('/avatar/random/gender/:gender', avatarControllers.avatarForGender);
 
 //Rota de erro ao não informar nenhum gênero
-router.get('/avatar/gender', avatarControllers.avatarForGenderError);
+router.get('/avatar/random/gender', avatarControllers.avatarForGenderError);
 
 //Rota para selecionar um avatar pelo id
 router.get('/avatar/id/:id', avatarControllers.selectAvatar);

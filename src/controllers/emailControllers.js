@@ -49,6 +49,11 @@ function isEmailForDomain(req, res) {
     }
 }
 
+//Função de erro para rota incompleta
+function emailError(req, res) {
+    return res.status(400).json({error: 'Rota incompleta'});
+}
+
 //Função para gerar um email aleatório
 function email(req, res) {
     const i = Math.floor(Math.random() * emails.length)
@@ -88,6 +93,7 @@ function emailForDomain(req, res) {
 }
 
 module.exports = {
+    emailError,
     isEmail,
     isEmailForDomain,
     email,

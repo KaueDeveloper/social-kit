@@ -60,6 +60,11 @@ function randomPostForUser(req, res) {
     }
 }
 
+//Função de erro ao não informar nenhum usuário
+function randomPostForUserError(req, res) {
+    return res.status(400).json({error: 'Você deve informar um nome de usuário. Ex: /post/random/user/isah_7'});
+}
+
 //Função para gerar todas as postagens
 function allPosts(req, res) {
     const limit = req.query.limit;
@@ -113,6 +118,7 @@ module.exports = {
     postError,
     randomPost,
     randomPostForUser,
+    randomPostForUserError,
     allPosts,
     allPostsForUser
 }
