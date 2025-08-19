@@ -30,3 +30,11 @@ Utilitários essenciais para construção de redes sociais: validação de dados
 /avatar/gender/f - gera um avatar aleatório feminino
 /avatar/gender/m - gera um avatar aleatório masculino
 /avatar/id/(algum número) - seleciona um avatar manualmente pelo id
+
+--Geração de postagens--
+/post/random - gera uma postagem aleatória
+/post/random?limit=(algum número) - delimita a quantidade de postagens aleatórias geradas
+/post/random/:user - gera uma postagem aleatória de algum usuário
+/post/all - gera todas as postagens da API
+/post/all?limit=(algum número) - delimita a quantidade de postagens que serão geradas
+/post/all/:user - gera todas as postagens de algum usuário
