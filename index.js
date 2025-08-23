@@ -1,6 +1,5 @@
 const express = require('express');
 const API = express();
-const path = require('path');
 
 //Rotas
 const fakeUserRoutes = require('./src/routes/fake-user');
@@ -8,6 +7,7 @@ const emailRoutes = require('./src/routes/email');
 const nameRoutes = require('./src/routes/name');
 const avatarRoutes = require('./src/routes/avatar');
 const postRoutes = require('./src/routes/post');
+const bannerRoutes = require('./src/routes/banner');
 
 //Rotas de usuários fakes
 API.use('/', fakeUserRoutes);
@@ -23,6 +23,9 @@ API.use('/', avatarRoutes);
 
 //Rotas de postagens
 API.use('/', postRoutes);
+
+//Rotas de banners
+API.use('/', bannerRoutes);
 
 API.listen(8080, () => {
     console.log('Servidor rodando');
