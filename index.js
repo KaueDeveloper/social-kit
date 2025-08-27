@@ -1,5 +1,6 @@
 const express = require('express');
 const API = express();
+const PORT = process.env.PORT || 3000;
 
 //Rotas
 const fakeUserRoutes = require('./src/routes/fake-user');
@@ -31,6 +32,9 @@ API.use('/', bannerRoutes);
 //Rotas de bios
 API.use('/', bioRoutes);
 
-API.listen(8080, () => {
+//Rota de ping para manter a API ativa
+API.use('/ping', (req, res) => res.send('OK'));
+
+API.listen(PORT, () => {
     console.log('Servidor rodando');
 })

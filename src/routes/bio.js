@@ -1,6 +1,6 @@
 //Rotas de geração de bios
 const express = require('express');
-const router = express();
+const router = express.Router();
 const bioControllers = require('../controllers/bioControllers');
 
 //Rota de erro para parâmetros incompletos
