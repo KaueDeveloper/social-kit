@@ -1,10 +1,5 @@
 //Array de postagens
 
-/* ----- Notes ---------
-Atualizar depois o link dos avatares
-*/
-
-
 const posts = [
     //Postagens do Lucas Ferreira - @eu_lucas
     {
@@ -13,7 +8,7 @@ const posts = [
             id: 1,
             name: 'Lucas Ferreira',
             username: '@eu_lucas',
-            avatar: 'http://localhost:8080/avatar/id/1'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/1'
         },
         content: 'Hoje, celebrei meu aniversário com minha família. O que tenho a dizer é somente gratidão.',
         hashtags: ['#familia', '#aniversario', '#felicidade'],
@@ -27,7 +22,7 @@ const posts = [
             id: 1,
             name: 'Lucas Ferreira',
             username: '@eu_lucas',
-            avatar: 'http://localhost:8080/avatar/id/1'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/1'
         },
         content: 'Dediquei essa manhã para ler um livro que gosto muito, muita paz e ensino.',
         hashtags: ['#livro', '#leitura', '#paz'],
@@ -41,7 +36,7 @@ const posts = [
             id: 1,
             name: 'Lucas Ferreira',
             username: '@eu_lucas',
-            avatar: 'http://localhost:8080/avatar/id/1'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/1'
         },
         content: 'Adoro ler livros, meu hobie favorito.',
         hashtags: ['#livros'],
@@ -55,7 +50,7 @@ const posts = [
             id: 1,
             name: 'Lucas Ferreira',
             username: '@eu_lucas',
-            avatar: 'http://localhost:8080/avatar/id/1'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/1'
         },
         content: 'Estou doando livros, quem tiver interesse, pode me mandar uma mensagem.',
         hashtags: ['#doacao', '#livros', '#solidariedade'],
@@ -69,7 +64,7 @@ const posts = [
             id: 1,
             name: 'Lucas Ferreira',
             username: '@eu_lucas',
-            avatar: 'http://localhost:8080/avatar/id/1'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/1'
         },
         content: 'Fui jogar xadrez com os amigos, satisfação em poder tê-los como meus irmãos @italo_santos, @marcos_benicio',
         hashtags: ['#xadrez', '#chess', '#amigos'],
@@ -84,7 +79,7 @@ const posts = [
             id: 2,
             name: 'Jeferson Albuquerque',
             username: '@eu_jef',
-            avatar: 'http://localhost:8080/avatar/id/2'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/2'
         },
         content: 'Vou tocar uma senata no concerto hoje.',
         hashtags: ['#senata', '#concerto', '#violino'],
@@ -98,7 +93,7 @@ const posts = [
             id: 2,
             name: 'Jeferson Albuquerque',
             username: '@eu_jef',
-            avatar: 'http://localhost:8080/avatar/id/2'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/2'
         },
         content: 'Pensando seriamente em trocar de violino.',
         hashtags: ['#violinista'],
@@ -112,7 +107,7 @@ const posts = [
             id: 2,
             name: 'Jeferson Albuquerque',
             username: '@eu_jef',
-            avatar: 'http://localhost:8080/avatar/id/2'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/2'
         },
         content: 'Mais tarde vou para o concerto de novo',
         hashtags: ['#violino', '#violinista'],
@@ -126,7 +121,7 @@ const posts = [
             id: 2,
             name: 'Jeferson Albuquerque',
             username: '@eu_jef',
-            avatar: 'http://localhost:8080/avatar/id/2'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/2'
         },
         content: 'Um dia, irei para Guatemala tocar violino por lá, meu sonho!',
         hashtags: ['#viajem', '#violino', '#música'],
@@ -140,7 +135,7 @@ const posts = [
             id: 2,
             name: 'Jeferson Albuquerque',
             username: '@eu_jef',
-            avatar: 'http://localhost:8080/avatar/id/2'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/2'
         },
         content: 'Não tem coisa melhor do que tocar violino em um final de tarde. A sensação de tocar experience olhando para o sol se pondo é inexplicável',
         hashtags: ['#violino', '#música'],
@@ -155,7 +150,7 @@ const posts = [
             id: 3,
             name: 'Ravi Ramesh',
             username: '@ravi_ramesh',
-            avatar: 'http://localhost:8080/avatar/id/3'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/3'
         },
         content: 'रोज़मर्रा की ज़िंदगी की भागदौड़ के कारण आज मैं बहुत थक गया हूँ',
         hashtags: [],
@@ -169,7 +164,7 @@ const posts = [
             id: 3,
             name: 'Ravi Ramesh',
             username: '@ravi_ramesh',
-            avatar: 'http://localhost:8080/avatar/id/3'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/3'
         },
         content: 'मैं यहाँ से जाना चाहता हूँ, मैं अब और बर्दाश्त नहीं कर सकता',
         hashtags: [],
@@ -183,7 +178,7 @@ const posts = [
             id: 3,
             name: 'Ravi Ramesh',
             username: '@ravi_ramesh',
-            avatar: 'http://localhost:8080/avatar/id/3'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/3'
         },
         content: 'आज मैं ध्यान करने के लिए जल्दी उठा और मुझे अभी से लग रहा है कि दिन बहुत फलदायी होगा। शांत मन किसी भी उपलब्धि की पहली सीढ़ी है। 🧘‍♂️',
         hashtags: [],
@@ -197,7 +192,7 @@ const posts = [
             id: 3,
             name: 'Ravi Ramesh',
             username: '@ravi_ramesh',
-            avatar: 'http://localhost:8080/avatar/id/3'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/3'
         },
         content: 'तकनीक हमें दुनिया से जोड़ती है, लेकिन हम खुद से जुड़ना नहीं भूल सकते। संतुलन ही सब कुछ है। 🌍✨',
         hashtags: [],
@@ -211,7 +206,7 @@ const posts = [
             id: 3,
             name: 'Ravi Ramesh',
             username: '@ravi_ramesh',
-            avatar: 'http://localhost:8080/avatar/id/3'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/3'
         },
         content: 'सूर्यास्त की सैर दिन का मेरा सबसे पसंदीदा समय है। यही वह समय होता है जब मैं अपने पास जो कुछ है उसके लिए आभारी होती हूँ और कल के लिए तैयारी करती हूँ। 🌅',
         hashtags: [],
@@ -226,7 +221,7 @@ const posts = [
             id: 4,
             name: 'Jessica Pereira',
             username: '@me_jess',
-            avatar: 'http://localhost:8080/avatar/id/4'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/4'
         },
         content: 'Começando a semana com um café forte e uma lista de metas. Que seja produtiva e cheia de boas notícias! ☕✨',
         hashtags: ['#segunda', '#foco', '#produtividade'],
@@ -240,7 +235,7 @@ const posts = [
             id: 4,
             name: 'Jessica Pereira',
             username: '@me_jess',
-            avatar: 'http://localhost:8080/avatar/id/4'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/4'
         },
         content: 'Não existe tempo perfeito, existe a coragem de começar. Hoje dei o primeiro passo em um novo projeto! 🚀',
         hashtags: ['#motivação', '#novosdesafios', '#coragem'],
@@ -254,7 +249,7 @@ const posts = [
             id: 4,
             name: 'Jessica Pereira',
             username: '@me_jess',
-            avatar: 'http://localhost:8080/avatar/id/4'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/4'
         },
         content: 'Às vezes tudo que precisamos é de uma boa música e alguns minutos sozinha. 🎧💆‍♀️',
         hashtags: ['#autocuidado', '#paz', '#momentomeu'],
@@ -268,7 +263,7 @@ const posts = [
             id: 4,
             name: 'Jessica Pereira',
             username: '@me_jess',
-            avatar: 'http://localhost:8080/avatar/id/4'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/4'
         },
         content: 'Hoje me desafiei na cozinha! Receita nova, muitos erros e risadas, mas no fim ficou delicioso. 🍝😅',
         hashtags: ['#cozinha', '#aventuras', '#sabores'],
@@ -282,7 +277,7 @@ const posts = [
             id: 4,
             name: 'Jessica Pereira',
             username: '@me_jess',
-            avatar: 'http://localhost:8080/avatar/id/4'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/4'
         },
         content: 'Domingo de sol, livro na mão e coração tranquilo. É assim que recarrego minhas energias. 📚☀️',
         hashtags: ['#domingo', '#leitura', '#pazinterior'],
@@ -297,7 +292,7 @@ const posts = [
             id: 5,
             name: 'Juliana Lima',
             username: '@ju_lima',
-            avatar: 'http://localhost:8080/avatar/id/5'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/5'
         },
         content: 'Nada como uma corrida leve pela manhã para começar o dia cheia de energia. 🏃‍♀️🌅',
         hashtags: ['#corrida', '#saúde', '#energia'],
@@ -311,7 +306,7 @@ const posts = [
             id: 5,
             name: 'Juliana Lima',
             username: '@ju_lima',
-            avatar: 'http://localhost:8080/avatar/id/5'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/5'
         },
         content: 'Trabalhando em um novo projeto criativo que está me deixando super animada! Logo compartilho novidades. ✨🎨',
         hashtags: ['#criatividade', '#novoprojeto', '#inspiração'],
@@ -325,7 +320,7 @@ const posts = [
             id: 5,
             name: 'Juliana Lima',
             username: '@ju_lima',
-            avatar: 'http://localhost:8080/avatar/id/5'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/5'
         },
         content: 'Não precisamos de muito para ser felizes: amigos verdadeiros, risadas sinceras e momentos simples. 💛',
         hashtags: ['#amizade', '#felicidade', '#simplicidade'],
@@ -339,7 +334,7 @@ const posts = [
             id: 5,
             name: 'Juliana Lima',
             username: '@ju_lima',
-            avatar: 'http://localhost:8080/avatar/id/5'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/5'
         },
         content: 'Sexta-feira chegou! Hora de relaxar, colocar uma boa série e esquecer da correria da semana. 🍿📺',
         hashtags: ['#sexta', '#seriemaratonada', '#descanso'],
@@ -353,7 +348,7 @@ const posts = [
             id: 5,
             name: 'Juliana Lima',
             username: '@ju_lima',
-            avatar: 'http://localhost:8080/avatar/id/5'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/5'
         },
         content: 'Um café quentinho e um caderno em branco. Ideias fluem melhor assim. ☕📓',
         hashtags: ['#café', '#inspiração', '#momentomeu'],
@@ -368,7 +363,7 @@ const posts = [
             id: 6,
             name: 'Stefany Lindsay',
             username: '@stef_lindsay',
-            avatar: 'http://localhost:8080/avatar/id/6'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/6'
         },
         content: 'Golden hour is always my favorite time to capture magic through the lens. 🌅📸',
         hashtags: ['#photography', '#goldenhour', '#creative'],
@@ -382,7 +377,7 @@ const posts = [
             id: 6,
             name: 'Stefany Lindsay',
             username: '@stef_lindsay',
-            avatar: 'http://localhost:8080/avatar/id/6'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/6'
         },
         content: 'Design is not just what it looks like, it’s how it works. Constantly learning and improving my craft. ✨💻',
         hashtags: ['#design', '#creativity', '#uxui'],
@@ -396,7 +391,7 @@ const posts = [
             id: 6,
             name: 'Stefany Lindsay',
             username: '@stef_lindsay',
-            avatar: 'http://localhost:8080/avatar/id/6'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/6'
         },
         content: 'Exploring downtown today with my camera. Every corner tells a different story. 🏙️📷',
         hashtags: ['#urbanphotography', '#storytelling', '#downtown'],
@@ -410,7 +405,7 @@ const posts = [
             id: 6,
             name: 'Stefany Lindsay',
             username: '@stef_lindsay',
-            avatar: 'http://localhost:8080/avatar/id/6'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/6'
         },
         content: 'Sometimes the best inspiration comes from nature. Fresh air, colors, textures... pure art. 🍃🎨',
         hashtags: ['#inspiration', '#nature', '#artistlife'],
@@ -424,7 +419,7 @@ const posts = [
             id: 6,
             name: 'Stefany Lindsay',
             username: '@stef_lindsay',
-            avatar: 'http://localhost:8080/avatar/id/6'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/6'
         },
         content: 'Editing late at night with coffee by my side. Creativity doesn’t have a schedule. ☕✨',
         hashtags: ['#designerlife', '#nightowl', '#creativity'],
@@ -439,7 +434,7 @@ const posts = [
             id: 7,
             name: 'Thiago Silva',
             username: '@coronel_thiagosilva',
-            avatar: 'http://localhost:8080/avatar/id/7'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/7'
         },
         content: 'Disciplina não é apenas seguir regras, é escolher o caminho certo mesmo quando ninguém está olhando. ⚔️🇧🇷',
         hashtags: ['#liderança', '#disciplina', '#honra'],
@@ -453,7 +448,7 @@ const posts = [
             id: 7,
             name: 'Thiago Silva',
             username: '@coronel_thiagosilva',
-            avatar: 'http://localhost:8080/avatar/id/7'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/7'
         },
         content: 'Orgulho de ver minha tropa unida, pronta para qualquer missão. A força de um soldado vem da confiança no seu líder. 💂‍♂️',
         hashtags: ['#exército', '#orgulho', '#missão'],
@@ -467,7 +462,7 @@ const posts = [
             id: 7,
             name: 'Thiago Silva',
             username: '@coronel_thiagosilva',
-            avatar: 'http://localhost:8080/avatar/id/7'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/7'
         },
         content: 'Na vida militar aprendemos que cada detalhe importa. Treinar duro é o que garante a vitória no momento certo. 🎖️',
         hashtags: ['#treino', '#força', '#estratégia'],
@@ -481,7 +476,7 @@ const posts = [
             id: 7,
             name: 'Thiago Silva',
             username: '@coronel_thiagosilva',
-            avatar: 'http://localhost:8080/avatar/id/7'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/7'
         },
         content: 'A farda representa mais que um uniforme: representa sacrifício, lealdade e amor pela pátria. 🇧🇷',
         hashtags: ['#patriotismo', '#honra', '#forçanacional'],
@@ -495,7 +490,7 @@ const posts = [
             id: 7,
             name: 'Thiago Silva',
             username: '@coronel_thiagosilva',
-            avatar: 'http://localhost:8080/avatar/id/7'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/7'
         },
         content: 'Por trás do título de coronel, existe um homem comum que valoriza a família, os amigos e cada momento de paz. 🕊️',
         hashtags: ['#família', '#vida', '#equilíbrio'],
@@ -510,7 +505,7 @@ const posts = [
             id: 8,
             name: 'Agatha Guilmesh',
             username: '@aghata',
-            avatar: 'http://localhost:8080/avatar/id/8'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/8'
         },
         content: 'Just finished recording my new single! Can’t wait for you all to hear it. 🎶✨',
         hashtags: ['#newsingle', '#musiclife', '#studio'],
@@ -524,7 +519,7 @@ const posts = [
             id: 8,
             name: 'Agatha Guilmesh',
             username: '@aghata',
-            avatar: 'http://localhost:8080/avatar/id/8'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/8'
         },
         content: 'Touring across Canada this summer! Any cities you’re hoping I come to? 🍁🎤',
         hashtags: ['#tour', '#Canada', '#live'],
@@ -538,7 +533,7 @@ const posts = [
             id: 8,
             name: 'Agatha Guilmesh',
             username: '@aghata',
-            avatar: 'http://localhost:8080/avatar/id/8'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/8'
         },
         content: 'Nothing beats the feeling of performing live and seeing all your amazing fans singing along. ❤️🎵',
         hashtags: ['#concert', '#fans', '#grateful'],
@@ -552,7 +547,7 @@ const posts = [
             id: 8,
             name: 'Agatha Guilmesh',
             username: '@aghata',
-            avatar: 'http://localhost:8080/avatar/id/8'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/8'
         },
         content: 'Studio nights and coffee—my two essentials for creating new music. ☕🎹',
         hashtags: ['#musicstudio', '#creativity', '#nightwork'],
@@ -566,7 +561,7 @@ const posts = [
             id: 8,
             name: 'Agatha Guilmesh',
             username: '@aghata',
-            avatar: 'http://localhost:8080/avatar/id/8'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/8'
         },
         content: 'Can’t wait to share my upcoming music video with you all! 🎬✨ Stay tuned!',
         hashtags: ['#musicvideo', '#comingsoon', '#excited'],
@@ -581,7 +576,7 @@ const posts = [
             id: 9,
             name: 'Alessandra Melchior',
             username: '@melchior_ale',
-            avatar: 'http://localhost:8080/avatar/id/9'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/9'
         },
         content: 'Caminhadas matinais são a melhor forma de começar o dia com a mente clara e energia renovada. 🌿☀️',
         hashtags: ['#caminhada', '#mindfulness', '#vidasaudável'],
@@ -595,7 +590,7 @@ const posts = [
             id: 9,
             name: 'Alessandra Melchior',
             username: '@melchior_ale',
-            avatar: 'http://localhost:8080/avatar/id/9'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/9'
         },
         content: 'Um chá, um bom livro e uma tarde chuvosa. Combinação perfeita. 🍵📖',
         hashtags: ['#aconchego', '#relax', '#leituratime'],
@@ -609,7 +604,7 @@ const posts = [
             id: 9,
             name: 'Alessandra Melchior',
             username: '@melchior_ale',
-            avatar: 'http://localhost:8080/avatar/id/9'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/9'
         },
         content: 'Experimentando novas receitas na cozinha hoje. Cozinhar é uma terapia. 👩‍🍳✨',
         hashtags: ['#cozinha', '#hobby', '#criatividade'],
@@ -623,7 +618,7 @@ const posts = [
             id: 9,
             name: 'Alessandra Melchior',
             username: '@melchior_ale',
-            avatar: 'http://localhost:8080/avatar/id/9'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/9'
         },
         content: 'Corridas no fim da tarde ajudam a aliviar o estresse e clarear a mente. Super recomendo! 🏃‍♀️🌆',
         hashtags: ['#fitness', '#corrida', '#bemestar'],
@@ -637,7 +632,7 @@ const posts = [
             id: 9,
             name: 'Alessandra Melchior',
             username: '@melchior_ale',
-            avatar: 'http://localhost:8080/avatar/id/9'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/9'
         },
         content: 'Passar tempo de qualidade com a família não tem preço. Valorize cada momento. ❤️👨‍👩‍👧‍👦',
         hashtags: ['#família', '#amor', '#gratidão'],
@@ -652,7 +647,7 @@ const posts = [
             id: 10,
             name: 'Emily Garcia',
             username: '@emily_garcia',
-            avatar: 'http://localhost:8080/avatar/id/10'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/10'
         },
         content: 'Acordei inspirada hoje e decidi organizar meu espaço de trabalho. Ambiente limpo, mente limpa! 🖋️✨',
         hashtags: ['#organização', '#produtividade', '#inspiração'],
@@ -666,7 +661,7 @@ const posts = [
             id: 10,
             name: 'Emily Garcia',
             username: '@emily_garcia',
-            avatar: 'http://localhost:8080/avatar/id/10'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/10'
         },
         content: 'Hoje foi dia de experimentar uma receita vegana nova. Surpreendentemente deliciosa! 🌱🍴',
         hashtags: ['#culinária', '#vegano', '#experimentar'],
@@ -680,7 +675,7 @@ const posts = [
             id: 10,
             name: 'Emily Garcia',
             username: '@emily_garcia',
-            avatar: 'http://localhost:8080/avatar/id/10'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/10'
         },
         content: 'Fim de tarde perfeito para fotografar o pôr do sol. Luz dourada é sempre mágica. 🌇📷',
         hashtags: ['#fotografia', '#pordosol', '#natureza'],
@@ -694,7 +689,7 @@ const posts = [
             id: 10,
             name: 'Emily Garcia',
             username: '@emily_garcia',
-            avatar: 'http://localhost:8080/avatar/id/10'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/10'
         },
         content: 'Dedicar alguns minutos à meditação mudou completamente minha energia do dia. Recomendo! 🧘‍♀️💫',
         hashtags: ['#meditação', '#bemestar', '#energia'],
@@ -708,7 +703,7 @@ const posts = [
             id: 10,
             name: 'Emily Garcia',
             username: '@emily_garcia',
-            avatar: 'http://localhost:8080/avatar/id/10'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/10'
         },
         content: 'Nada como ouvir música boa e se perder nas memórias que ela traz. 🎶❤️',
         hashtags: ['#música', '#nostalgia', '#momentos'],
@@ -723,7 +718,7 @@ const posts = [
             id: 11,
             name: 'Nataly Lima',
             username: '@eu_nataly_lima',
-            avatar: 'http://localhost:8080/avatar/id/11'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/11'
         },
         content: 'Hoje foi dia de ensaio longo. Cada nota precisa de dedicação e paixão. 🎻✨',
         hashtags: ['#violinista', '#ensaios', '#musica'],
@@ -737,7 +732,7 @@ const posts = [
             id: 11,
             name: 'Nataly Lima',
             username: '@eu_nataly_lima',
-            avatar: 'http://localhost:8080/avatar/id/11'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/11'
         },
         content: 'A energia do palco é indescritível! Amo sentir a música vibrar junto com o público. 🎶❤️',
         hashtags: ['#show', '#violin', '#paixão'],
@@ -751,7 +746,7 @@ const posts = [
             id: 11,
             name: 'Nataly Lima',
             username: '@eu_nataly_lima',
-            avatar: 'http://localhost:8080/avatar/id/11'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/11'
         },
         content: 'Praticar diariamente faz toda a diferença. Persistência é a chave para a maestria. 🗝️🎻',
         hashtags: ['#prática', '#disciplina', '#musica'],
@@ -765,7 +760,7 @@ const posts = [
             id: 11,
             name: 'Nataly Lima',
             username: '@eu_nataly_lima',
-            avatar: 'http://localhost:8080/avatar/id/11'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/11'
         },
         content: 'Momentos de inspiração aparecem nos lugares mais inesperados. Hoje, no parque, veio uma melodia linda. 🍃🎵',
         hashtags: ['#inspiração', '#violinista', '#natureza'],
@@ -779,7 +774,7 @@ const posts = [
             id: 11,
             name: 'Nataly Lima',
             username: '@eu_nataly_lima',
-            avatar: 'http://localhost:8080/avatar/id/11'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/11'
         },
         content: 'Nada se compara ao sentimento de compor uma nova música e ouvir cada nota ganhar vida. ✨🎻',
         hashtags: ['#composição', '#música', '#emoção'],
@@ -794,7 +789,7 @@ const posts = [
             id: 12,
             name: 'Giulia Bianchi',
             username: '@giulia',
-            avatar: 'http://localhost:8080/avatar/id/12'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/12'
         },
         content: 'Every smile from my little one brightens my entire day. 💖👶',
         hashtags: ['#motherhood', '#love', '#family'],
@@ -808,7 +803,7 @@ const posts = [
             id: 12,
             name: 'Giulia Bianchi',
             username: '@giulia',
-            avatar: 'http://localhost:8080/avatar/id/12'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/12'
         },
         content: 'Morning cuddles with my baby are the best therapy. 🌸✨',
         hashtags: ['#momlife', '#babycuddles', '#happiness'],
@@ -822,7 +817,7 @@ const posts = [
             id: 12,
             name: 'Giulia Bianchi',
             username: '@giulia',
-            avatar: 'http://localhost:8080/avatar/id/12'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/12'
         },
         content: 'First steps today! Feeling so proud and emotional. 👣💞',
         hashtags: ['#firststeps', '#proudmom', '#familymoments'],
@@ -836,7 +831,7 @@ const posts = [
             id: 12,
             name: 'Giulia Bianchi',
             username: '@giulia',
-            avatar: 'http://localhost:8080/avatar/id/12'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/12'
         },
         content: 'Bedtime stories with my little princess are my favorite part of the day. 📖🌙',
         hashtags: ['#bedtimestory', '#motherhood', '#magicalmoments'],
@@ -850,7 +845,7 @@ const posts = [
             id: 12,
             name: 'Giulia Bianchi',
             username: '@giulia',
-            avatar: 'http://localhost:8080/avatar/id/12'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/12'
         },
         content: 'Watching her laugh uncontrollably makes every challenge disappear. ❤️😂',
         hashtags: ['#laughter', '#joy', '#familyfirst'],
@@ -865,7 +860,7 @@ const posts = [
             id: 13,
             name: 'Larissa Melo',
             username: '@lari_melo',
-            avatar: 'http://localhost:8080/avatar/id/13'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/13'
         },
         content: 'Nada como um ter um bom descanço e poder acordar pronta para um novo dia.',
         hashtags: ['#leitura', '#relax', '#momentosimples'],
@@ -879,7 +874,7 @@ const posts = [
             id: 13,
             name: 'Larissa Melo',
             username: '@lari_melo',
-            avatar: 'http://localhost:8080/avatar/id/13'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/13'
         },
         content: 'Hoje decidi caminhar no parque e aproveitar o sol da manhã. ☀️🌳',
         hashtags: ['#caminhada', '#natureza', '#bemestar'],
@@ -893,7 +888,7 @@ const posts = [
             id: 13,
             name: 'Larissa Melo',
             username: '@lari_melo',
-            avatar: 'http://localhost:8080/avatar/id/13'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/13'
         },
         content: 'Tarde de filmes e pipoca em casa. Pequenas alegrias fazem toda a diferença. 🎬🍿',
         hashtags: ['#filmes', '#aconchego', '#diversão'],
@@ -907,7 +902,7 @@ const posts = [
             id: 13,
             name: 'Larissa Melo',
             username: '@lari_melo',
-            avatar: 'http://localhost:8080/avatar/id/13'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/13'
         },
         content: 'Experimentando uma nova receita hoje! Amo cozinhar e inventar sabores. 👩‍🍳✨',
         hashtags: ['#cozinha', '#hobby', '#experimentar'],
@@ -921,7 +916,7 @@ const posts = [
             id: 13,
             name: 'Larissa Melo',
             username: '@lari_melo',
-            avatar: 'http://localhost:8080/avatar/id/13'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/13'
         },
         content: 'Final de semana chegou! Hora de relaxar, ouvir música e aproveitar cada momento. 🎶💛',
         hashtags: ['#finaldesemana', '#relax', '#momentosfelizes'],
@@ -936,7 +931,7 @@ const posts = [
             id: 14,
             name: 'Sharow Mustang',
             username: '@sharow_mustang',
-            avatar: 'http://localhost:8080/avatar/id/14'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/14'
         },
         content: 'Nothing beats a morning run by the lake. Fresh air, clear mind. 🌅🏃‍♀️',
         hashtags: ['#morningrun', '#freshair', '#healthylifestyle'],
@@ -950,7 +945,7 @@ const posts = [
             id: 14,
             name: 'Sharow Mustang',
             username: '@sharow_mustang',
-            avatar: 'http://localhost:8080/avatar/id/14'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/14'
         },
         content: 'Trying out a new coffee shop today. The latte art is amazing! ☕🎨',
         hashtags: ['#coffeetime', '#latteart', '#newplaces'],
@@ -964,7 +959,7 @@ const posts = [
             id: 14,
             name: 'Sharow Mustang',
             username: '@sharow_mustang',
-            avatar: 'http://localhost:8080/avatar/id/14'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/14'
         },
         content: 'Weekend vibes: cozy blankets, a good movie, and some homemade snacks. 🎬🍿',
         hashtags: ['#weekendvibes', '#cozy', '#relax'],
@@ -978,7 +973,7 @@ const posts = [
             id: 14,
             name: 'Sharow Mustang',
             username: '@sharow_mustang',
-            avatar: 'http://localhost:8080/avatar/id/14'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/14'
         },
         content: 'Exploring downtown today. The street art here is incredible! 🎨🏙️',
         hashtags: ['#urbanexploration', '#streetart', '#citylife'],
@@ -992,7 +987,7 @@ const posts = [
             id: 14,
             name: 'Sharow Mustang',
             username: '@sharow_mustang',
-            avatar: 'http://localhost:8080/avatar/id/14'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/14'
         },
         content: 'Late night journaling. Reflecting on the little wins and lessons of the day. 🖊️✨',
         hashtags: ['#journaling', '#reflection', '#selfgrowth'],
@@ -1007,7 +1002,7 @@ const posts = [
             id: 15,
             name: 'Hanna Lange',
             username: '@ich_hanna',
-            avatar: 'http://localhost:8080/avatar/id/15'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/15'
         },
         content: 'Morgenspaziergang im Park – frische Luft und klare Gedanken. 🌿☀️',
         hashtags: ['#Morgenspaziergang', '#Natur', '#Entspannung'],
@@ -1021,7 +1016,7 @@ const posts = [
             id: 15,
             name: 'Hanna Lange',
             username: '@ich_hanna',
-            avatar: 'http://localhost:8080/avatar/id/15'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/15'
         },
         content: 'Heute neue Rezepte ausprobiert – Kochen macht so viel Freude! 👩‍🍳✨',
         hashtags: ['#Kochen', '#Hobby', '#Genuss'],
@@ -1035,7 +1030,7 @@ const posts = [
             id: 15,
             name: 'Hanna Lange',
             username: '@ich_hanna',
-            avatar: 'http://localhost:8080/avatar/id/15'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/15'
         },
         content: 'Abendkaffee auf dem Balkon und die Sonne genießen. ☕🌇',
         hashtags: ['#Kaffeepause', '#Balkon', '#Abendstimmung'],
@@ -1049,7 +1044,7 @@ const posts = [
             id: 15,
             name: 'Hanna Lange',
             username: '@ich_hanna',
-            avatar: 'http://localhost:8080/avatar/id/15'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/15'
         },
         content: 'Bücherzeit! Nichts ist schöner, als in eine andere Welt abzutauchen. 📖✨',
         hashtags: ['#Lesen', '#Bücher', '#Entspannung'],
@@ -1063,7 +1058,7 @@ const posts = [
             id: 15,
             name: 'Hanna Lange',
             username: '@ich_hanna',
-            avatar: 'http://localhost:8080/avatar/id/15'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/15'
         },
         content: 'Spaziergänge am Wochenende helfen, den Kopf frei zu bekommen. 🏞️💛',
         hashtags: ['#Wochenende', '#Natur', '#Achtsamkeit'],
@@ -1078,7 +1073,7 @@ const posts = [
             id: 16,
             name: 'Alex Couth',
             username: '@me_alex_couth',
-            avatar: 'http://localhost:8080/avatar/id/16'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/16'
         },
         content: 'Just finished a crazy rehearsal session with Jess Music. Feeling pumped! 🎸🔥',
         hashtags: ['#bandlife', '#guitar', '#rehearsal'],
@@ -1092,7 +1087,7 @@ const posts = [
             id: 16,
             name: 'Alex Couth',
             username: '@me_alex_couth',
-            avatar: 'http://localhost:8080/avatar/id/16'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/16'
         },
         content: 'Late night guitar solo practice. Can’t get this riff out of my head! 🎶✨',
         hashtags: ['#guitarsolo', '#practice', '#musiclover'],
@@ -1106,7 +1101,7 @@ const posts = [
             id: 16,
             name: 'Alex Couth',
             username: '@me_alex_couth',
-            avatar: 'http://localhost:8080/avatar/id/16'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/16'
         },
         content: 'Touring with Jess Music is the best feeling ever. Fans, you rock! 🤘🎤',
         hashtags: ['#tourlife', '#livemusic', '#fans'],
@@ -1120,7 +1115,7 @@ const posts = [
             id: 16,
             name: 'Alex Couth',
             username: '@me_alex_couth',
-            avatar: 'http://localhost:8080/avatar/id/16'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/16'
         },
         content: 'Writing new songs in the studio. Creativity is flowing tonight. 🎹🎸',
         hashtags: ['#songwriting', '#studio', '#musicianlife'],
@@ -1134,7 +1129,7 @@ const posts = [
             id: 16,
             name: 'Alex Couth',
             username: '@me_alex_couth',
-            avatar: 'http://localhost:8080/avatar/id/16'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/16'
         },
         content: 'Nothing better than connecting with the audience during a live performance. ❤️🎶',
         hashtags: ['#liveperformance', '#guitarist', '#musiclove'],
@@ -1149,7 +1144,7 @@ const posts = [
             id: 17,
             name: 'Otávio Alencar',
             username: '@otavio',
-            avatar: 'http://localhost:8080/avatar/id/17'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/17'
         },
         content: 'O segredo de um bom negócio está na dedicação diária e na atenção aos detalhes. 💼✨',
         hashtags: ['#empreendedorismo', '#CEO', '#negócios'],
@@ -1163,7 +1158,7 @@ const posts = [
             id: 17,
             name: 'Otávio Alencar',
             username: '@otavio',
-            avatar: 'http://localhost:8080/avatar/id/17'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/17'
         },
         content: 'Participar de debates jurídicos e eventos empresariais é essencial para crescer profissionalmente. ⚖️📈',
         hashtags: ['#advogado', '#networking', '#carreira'],
@@ -1177,7 +1172,7 @@ const posts = [
             id: 17,
             name: 'Otávio Alencar',
             username: '@otavio',
-            avatar: 'http://localhost:8080/avatar/id/17'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/17'
         },
         content: 'Delegar tarefas é fundamental para liderar uma equipe de forma eficiente. 👥💡',
         hashtags: ['#liderança', '#gestão', '#CEO'],
@@ -1191,7 +1186,7 @@ const posts = [
             id: 17,
             name: 'Otávio Alencar',
             username: '@otavio',
-            avatar: 'http://localhost:8080/avatar/id/17'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/17'
         },
         content: 'Nada se compara à sensação de fechar um contrato importante e ver o resultado do esforço da equipe. 🤝🏆',
         hashtags: ['#sucesso', '#negócios', '#empreendedorismo'],
@@ -1205,7 +1200,7 @@ const posts = [
             id: 17,
             name: 'Otávio Alencar',
             username: '@otavio',
-            avatar: 'http://localhost:8080/avatar/id/17'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/17'
         },
         content: 'Equilibrar trabalho e momentos pessoais é a chave para uma vida plena e produtiva. ⚖️💛',
         hashtags: ['#equilíbrio', '#vida', '#produtividade'],
@@ -1220,7 +1215,7 @@ const posts = [
             id: 18,
             name: 'Camille Lemaire',
             username: '@lemaire_camille',
-            avatar: 'http://localhost:8080/avatar/id/18'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/18'
         },
         content: 'Spent the afternoon in the lab running experiments. Every little discovery counts! 🔬✨',
         hashtags: ['#biomedicine', '#labwork', '#research'],
@@ -1234,7 +1229,7 @@ const posts = [
             id: 18,
             name: 'Camille Lemaire',
             username: '@lemaire_camille',
-            avatar: 'http://localhost:8080/avatar/id/18'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/18'
         },
         content: 'Reading some interesting papers on cell regeneration today. Science never ceases to amaze me. 📚🔬',
         hashtags: ['#studies', '#biomedicine', '#learning'],
@@ -1248,7 +1243,7 @@ const posts = [
             id: 18,
             name: 'Camille Lemaire',
             username: '@lemaire_camille',
-            avatar: 'http://localhost:8080/avatar/id/18'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/18'
         },
         content: 'Coffee and notes – the perfect combination for a productive study session. ☕📝',
         hashtags: ['#studytime', '#coffee', '#biomedstudent'],
@@ -1262,7 +1257,7 @@ const posts = [
             id: 18,
             name: 'Camille Lemaire',
             username: '@lemaire_camille',
-            avatar: 'http://localhost:8080/avatar/id/18'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/18'
         },
         content: 'Attended a seminar on gene therapy today. The future of medicine is fascinating! 🧬💡',
         hashtags: ['#seminar', '#genetherapy', '#innovation'],
@@ -1276,7 +1271,7 @@ const posts = [
             id: 18,
             name: 'Camille Lemaire',
             username: '@lemaire_camille',
-            avatar: 'http://localhost:8080/avatar/id/18'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/18'
         },
         content: 'Evening walk to clear my mind after a long day in the lab. Nature always helps. 🌳🌅',
         hashtags: ['#eveningwalk', '#relax', '#nature'],
@@ -1291,7 +1286,7 @@ const posts = [
             id: 19,
             name: 'Amanda Collins',
             username: '@amanda',
-            avatar: 'http://localhost:8080/avatar/id/19'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/19'
         },
         content: 'Behind the scenes before tonight’s broadcast. Excited to share the latest updates with everyone! 🎥📰',
         hashtags: ['#newsanchor', '#broadcast', '#journalism'],
@@ -1305,7 +1300,7 @@ const posts = [
             id: 19,
             name: 'Amanda Collins',
             username: '@amanda',
-            avatar: 'http://localhost:8080/avatar/id/19'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/19'
         },
         content: 'Interviewing local heroes today. Their stories inspire me every time. 🌟🎤',
         hashtags: ['#journalism', '#interview', '#inspiration'],
@@ -1319,7 +1314,7 @@ const posts = [
             id: 19,
             name: 'Amanda Collins',
             username: '@amanda',
-            avatar: 'http://localhost:8080/avatar/id/19'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/19'
         },
         content: 'Newsroom mornings are busy, but the teamwork makes it all worthwhile. 📰💪',
         hashtags: ['#teamwork', '#newsroom', '#journalismlife'],
@@ -1333,7 +1328,7 @@ const posts = [
             id: 19,
             name: 'Amanda Collins',
             username: '@amanda',
-            avatar: 'http://localhost:8080/avatar/id/19'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/19'
         },
         content: 'Covering stories that matter is my passion. Every voice deserves to be heard. 🗣️❤️',
         hashtags: ['#news', '#passion', '#journalist'],
@@ -1347,7 +1342,7 @@ const posts = [
             id: 19,
             name: 'Amanda Collins',
             username: '@amanda',
-            avatar: 'http://localhost:8080/avatar/id/19'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/19'
         },
         content: 'Wrapping up a live segment today. Grateful for the opportunity to inform and connect with viewers. 🎬✨',
         hashtags: ['#livebroadcast', '#newsanchor', '#gratitude'],
@@ -1362,7 +1357,7 @@ const posts = [
             id: 20,
             name: 'Leticia Monez',
             username: '@le_monez',
-            avatar: 'http://localhost:8080/avatar/id/20'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/20'
         },
         content: 'Amo começar o dia com uma caminhada tranquila e ouvir música para animar a manhã. 🎧☀️',
         hashtags: ['#manhã', '#caminhada', '#musica'],
@@ -1376,7 +1371,7 @@ const posts = [
             id: 20,
             name: 'Leticia Monez',
             username: '@le_monez',
-            avatar: 'http://localhost:8080/avatar/id/20'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/20'
         },
         content: 'Tarde de café com amigas. Momentos simples que valem muito! ☕💛',
         hashtags: ['#amizade', '#cafedatarde', '#momentos'],
@@ -1390,7 +1385,7 @@ const posts = [
             id: 20,
             name: 'Leticia Monez',
             username: '@le_monez',
-            avatar: 'http://localhost:8080/avatar/id/20'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/20'
         },
         content: 'Explorando a cidade e descobrindo cantinhos novos. 🏙️✨',
         hashtags: ['#exploração', '#cidade', '#aventura'],
@@ -1404,7 +1399,7 @@ const posts = [
             id: 20,
             name: 'Leticia Monez',
             username: '@le_monez',
-            avatar: 'http://localhost:8080/avatar/id/20'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/20'
         },
         content: 'Finalizando um livro incrível hoje! Nada melhor que se perder em uma boa história. 📖❤️',
         hashtags: ['#leitura', '#livros', '#paixão'],
@@ -1418,7 +1413,7 @@ const posts = [
             id: 20,
             name: 'Leticia Monez',
             username: '@le_monez',
-            avatar: 'http://localhost:8080/avatar/id/20'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/20'
         },
         content: 'Fim de semana chegou! Hora de relaxar, ouvir música e aproveitar cada momento. 🎶🌸',
         hashtags: ['#fimdesemana', '#relax', '#momentosfelizes'],
@@ -1433,7 +1428,7 @@ const posts = [
             id: 21,
             name: 'Maria Neiva',
             username: '@maria20',
-            avatar: 'http://localhost:8080/avatar/id/21'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/21'
         },
         content: 'Hoje foi dia de cozinhar uma receita nova. Amo experimentar sabores diferentes! 👩‍🍳✨',
         hashtags: ['#cozinha', '#novareceita', '#hobby'],
@@ -1447,7 +1442,7 @@ const posts = [
             id: 21,
             name: 'Maria Neiva',
             username: '@maria20',
-            avatar: 'http://localhost:8080/avatar/id/21'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/21'
         },
         content: 'Uma boa caminhada ao ar livre faz maravilhas para a mente e o corpo. 🌳☀️',
         hashtags: ['#caminhada', '#natureza', '#bemestar'],
@@ -1461,7 +1456,7 @@ const posts = [
             id: 21,
             name: 'Maria Neiva',
             username: '@maria20',
-            avatar: 'http://localhost:8080/avatar/id/21'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/21'
         },
         content: 'Fim de tarde perfeito para ler um bom livro e tomar chá. 🍵📖',
         hashtags: ['#leitura', '#relax', '#momentosimples'],
@@ -1475,7 +1470,7 @@ const posts = [
             id: 21,
             name: 'Maria Neiva',
             username: '@maria20',
-            avatar: 'http://localhost:8080/avatar/id/21'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/21'
         },
         content: 'Assistindo a filmes clássicos hoje. Nada como boas histórias para relaxar. 🎬✨',
         hashtags: ['#filmes', '#clássicos', '#diversão'],
@@ -1489,7 +1484,7 @@ const posts = [
             id: 21,
             name: 'Maria Neiva',
             username: '@maria20',
-            avatar: 'http://localhost:8080/avatar/id/21'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/21'
         },
         content: 'Sábado à noite tranquilo, música suave e boas energias. 🎶💛',
         hashtags: ['#fimdesemana', '#relax', '#boaenergia'],
@@ -1504,7 +1499,7 @@ const posts = [
         id: 22,
         name: 'Виктор Карпов',
         username: '@Я_Виктор',
-        avatar: 'http://localhost:8080/avatar/id/22'
+        avatar: 'https://social-kit-api.onrender.com/avatar/id/22'
     },
     content: 'Утро началось с крепкого кофе и долгой прогулки. Отличный старт дня. ☕🚶‍♂️',
     hashtags: ['#утро', '#кофе', '#прогулка'],
@@ -1518,7 +1513,7 @@ const posts = [
             id: 22,
             name: 'Виктор Карпов',
             username: '@Я_Виктор',
-            avatar: 'http://localhost:8080/avatar/id/22'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/22'
         },
         content: 'Слушаю старые рок-записи, вдохновение приходит само собой. 🎸🔥',
         hashtags: ['#музыка', '#рок', '#вдохновение'],
@@ -1532,7 +1527,7 @@ const posts = [
             id: 22,
             name: 'Виктор Карпов',
             username: '@Я_Виктор',
-            avatar: 'http://localhost:8080/avatar/id/22'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/22'
         },
         content: 'Сегодняшний вечер идеально подходит для чтения любимой книги. 📚✨',
         hashtags: ['#вечер', '#книги', '#спокойствие'],
@@ -1546,7 +1541,7 @@ const posts = [
             id: 22,
             name: 'Виктор Карпов',
             username: '@Я_Виктор',
-            avatar: 'http://localhost:8080/avatar/id/22'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/22'
         },
         content: 'Погода меняется каждый час, но в этом есть своя красота. 🌦️🌈',
         hashtags: ['#погода', '#природа', '#жизнь'],
@@ -1560,7 +1555,7 @@ const posts = [
             id: 22,
             name: 'Виктор Карпов',
             username: '@Я_Виктор',
-            avatar: 'http://localhost:8080/avatar/id/22'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/22'
         },
         content: 'Иногда нужно просто остановиться и послушать тишину. 🌌',
         hashtags: ['#тишина', '#мысли', '#баланс'],
@@ -1575,7 +1570,7 @@ const posts = [
             id: 23,
             name: 'Caroline Smith',
             username: '@caroline_smith7',
-            avatar: 'http://localhost:8080/avatar/id/23'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/23'
         },
         content: 'Aula de microbiologia prática hoje e eu simplesmente AMEI! 🔬✨',
         hashtags: ['#biomedicina', '#microbiologia', '#novadescoberta'],
@@ -1589,7 +1584,7 @@ const posts = [
             id: 23,
             name: 'Caroline Smith',
             username: '@caroline_smith7',
-            avatar: 'http://localhost:8080/avatar/id/23'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/23'
         },
         content: 'Café e livros de anatomia: a dupla perfeita para uma tarde de estudos. ☕📚',
         hashtags: ['#rotinadeestudos', '#biomed', '#anatomia'],
@@ -1603,7 +1598,7 @@ const posts = [
             id: 23,
             name: 'Caroline Smith',
             username: '@caroline_smith7',
-            avatar: 'http://localhost:8080/avatar/id/23'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/23'
         },
         content: 'Nada como ver no microscópio aquilo que só via nos livros. Fascinante demais! 🔍❤️',
         hashtags: ['#microscopia', '#ciência', '#biomedicina'],
@@ -1617,7 +1612,7 @@ const posts = [
             id: 23,
             name: 'Caroline Smith',
             username: '@caroline_smith7',
-            avatar: 'http://localhost:8080/avatar/id/23'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/23'
         },
         content: 'Estudar até tarde não é fácil, mas o sonho de se tornar biomédica vale cada página lida. ✨📖',
         hashtags: ['#dedicação', '#sonhos', '#biomed'],
@@ -1631,7 +1626,7 @@ const posts = [
             id: 23,
             name: 'Caroline Smith',
             username: '@caroline_smith7',
-            avatar: 'http://localhost:8080/avatar/id/23'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/23'
         },
         content: 'Pequenos passos todos os dias levam a grandes conquistas no futuro. 🌟',
         hashtags: ['#motivação', '#futuro', '#biomedicina'],
@@ -1646,7 +1641,7 @@ const posts = [
             id: 24,
             name: 'Jeferson Guimarães',
             username: '@vc_jeferson',
-            avatar: 'http://localhost:8080/avatar/id/24'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/24'
         },
         content: 'Ontem no show em SP… que energia INCRÍVEL! 🔥🎤 Obrigado a cada um que cantou junto com a gente. Vocês fazem tudo valer a pena. ❤️',
         hashtags: ['#Melo', '#show', '#gratidão'],
@@ -1660,7 +1655,7 @@ const posts = [
             id: 24,
             name: 'Jeferson Guimarães',
             username: '@vc_jeferson',
-            avatar: 'http://localhost:8080/avatar/id/24'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/24'
         },
         content: 'Voltando ao estúdio para gravar umas faixas novas… quem aí já está ansioso pelo próximo álbum? 👀🎶',
         hashtags: ['#Melo', '#estúdio', '#novasmúsicas'],
@@ -1674,7 +1669,7 @@ const posts = [
             id: 24,
             name: 'Jeferson Guimarães',
             username: '@vc_jeferson',
-            avatar: 'http://localhost:8080/avatar/id/24'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/24'
         },
         content: 'A música tem esse poder mágico de conectar pessoas que nunca se viram antes. Hoje recebi mensagens de fãs da Argentina e fiquei emocionado demais. 🌎🎵',
         hashtags: ['#MúsicaÉVida', '#Melo', '#conexão'],
@@ -1688,7 +1683,7 @@ const posts = [
             id: 24,
             name: 'Jeferson Guimarães',
             username: '@vc_jeferson',
-            avatar: 'http://localhost:8080/avatar/id/24'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/24'
         },
         content: 'Não é só música, é família. Obrigado, Melo, por estarmos juntos nessa jornada há tantos anos. Vocês são meus irmãos. 🙏🎸',
         hashtags: ['#Melo', '#família', '#rocknroll'],
@@ -1702,7 +1697,7 @@ const posts = [
             id: 24,
             name: 'Jeferson Guimarães',
             username: '@vc_jeferson',
-            avatar: 'http://localhost:8080/avatar/id/24'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/24'
         },
         content: 'Domingo é dia de relaxar, mas também de inspiração. Escrevendo algumas letras novas… e posso dizer que vem coisa forte por aí. ✍️🔥',
         hashtags: ['#Melo', '#novasletras', '#inspiração'],
@@ -1717,7 +1712,7 @@ const posts = [
             id: 25,
             name: 'Julia Farias',
             username: '@ju_farias',
-            avatar: 'http://localhost:8080/avatar/id/25'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/25'
         },
         content: 'Hoje decidi começar um novo livro e já estou apaixonada pela história. 📖✨',
         hashtags: ['#leitora', '#amoler', '#novahistoria'],
@@ -1731,7 +1726,7 @@ const posts = [
             id: 25,
             name: 'Julia Farias',
             username: '@ju_farias',
-            avatar: 'http://localhost:8080/avatar/id/25'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/25'
         },
         content: 'Um café quente sempre melhora qualquer manhã. ☕🌸',
         hashtags: ['#bomdia', '#café', '#pequenasalegrias'],
@@ -1745,7 +1740,7 @@ const posts = [
             id: 25,
             name: 'Julia Farias',
             username: '@ju_farias',
-            avatar: 'http://localhost:8080/avatar/id/25'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/25'
         },
         content: 'Amanhã tem prova, torçam por mim! 📚✍️',
         hashtags: ['#prova', '#estudando', '#força'],
@@ -1759,7 +1754,7 @@ const posts = [
             id: 25,
             name: 'Julia Farias',
             username: '@ju_farias',
-            avatar: 'http://localhost:8080/avatar/id/25'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/25'
         },
         content: 'Adoro sair para caminhar no fim da tarde, me ajuda a organizar os pensamentos. 🌆🚶‍♀️',
         hashtags: ['#reflexão', '#fimdetarde', '#bemestar'],
@@ -1773,7 +1768,7 @@ const posts = [
             id: 25,
             name: 'Julia Farias',
             username: '@ju_farias',
-            avatar: 'http://localhost:8080/avatar/id/25'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/25'
         },
         content: 'Fim de semana chegando, já planejando descansar e ver filmes. 🎬💤',
         hashtags: ['#weekend', '#descanso', '#filmes'],
@@ -1788,7 +1783,7 @@ const posts = [
             id: 26,
             name: 'Matheus Ferreira',
             username: '@matheus_ferreira',
-            avatar: 'http://localhost:8080/avatar/id/26'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/26'
         },
         content: 'Depois de semanas, finalmente consegui zerar aquele jogo difícil. Sensação de conquista! 🎮🔥',
         hashtags: ['#games', '#vitória', '#diversão'],
@@ -1802,7 +1797,7 @@ const posts = [
             id: 26,
             name: 'Matheus Ferreira',
             username: '@matheus_ferreira',
-            avatar: 'http://localhost:8080/avatar/id/26'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/26'
         },
         content: 'Nada como um bom jogo de futebol com os amigos no fim de semana ⚽🍻',
         hashtags: ['#futebol', '#amizade', '#resenha'],
@@ -1816,7 +1811,7 @@ const posts = [
             id: 26,
             name: 'Matheus Ferreira',
             username: '@matheus_ferreira',
-            avatar: 'http://localhost:8080/avatar/id/26'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/26'
         },
         content: 'Experimentando algumas linhas de código novas no projeto, quando funciona de primeira é uma alegria! 💻🚀',
         hashtags: ['#programação', '#devlife', '#sucesso'],
@@ -1830,7 +1825,7 @@ const posts = [
             id: 26,
             name: 'Matheus Ferreira',
             username: '@matheus_ferreira',
-            avatar: 'http://localhost:8080/avatar/id/26'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/26'
         },
         content: 'Maratona de séries iniciada! Alguém aí já assistiu a nova temporada? 🍿📺',
         hashtags: ['#séries', '#maratona', '#fimdesemana'],
@@ -1844,7 +1839,7 @@ const posts = [
             id: 26,
             name: 'Matheus Ferreira',
             username: '@matheus_ferreira',
-            avatar: 'http://localhost:8080/avatar/id/26'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/26'
         },
         content: 'Treino concluído! Agora é descansar e preparar para a próxima sessão. 🏋️‍♂️💪',
         hashtags: ['#foco', '#treino', '#disciplina'],
@@ -1859,7 +1854,7 @@ const posts = [
             id: 27,
             name: 'Adriana Matias',
             username: '@adri_matias',
-            avatar: 'http://localhost:8080/avatar/id/27'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/27'
         },
         content: 'Nada como uma manhã tranquila para organizar os pensamentos e começar bem o dia. 🌞✨',
         hashtags: ['#bomdia', '#trabalho', '#motivação'],
@@ -1873,7 +1868,7 @@ const posts = [
             id: 27,
             name: 'Adriana Matias',
             username: '@adri_matias',
-            avatar: 'http://localhost:8080/avatar/id/27'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/27'
         },
         content: 'Fim de tarde perfeito para uma caminhada no parque e respirar ar puro. 🌿🍃',
         hashtags: ['#natureza', '#bemestar', '#caminhada'],
@@ -1887,7 +1882,7 @@ const posts = [
             id: 27,
             name: 'Adriana Matias',
             username: '@adri_matias',
-            avatar: 'http://localhost:8080/avatar/id/27'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/27'
         },
         content: 'Tentando novas receitas na cozinha hoje. Quem mais adora cozinhar nos finais de semana? 👩‍🍳🍝',
         hashtags: ['#cozinha', '#culinária', '#fimdesemana'],
@@ -1901,7 +1896,7 @@ const posts = [
             id: 27,
             name: 'Adriana Matias',
             username: '@adri_matias',
-            avatar: 'http://localhost:8080/avatar/id/27'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/27'
         },
         content: 'Sexta-feira chegou! Hora de relaxar, ouvir música e recarregar as energias. 🎶💆‍♀️',
         hashtags: ['#sextou', '#relax', '#musica'],
@@ -1915,7 +1910,7 @@ const posts = [
             id: 27,
             name: 'Adriana Matias',
             username: '@adri_matias',
-            avatar: 'http://localhost:8080/avatar/id/27'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/27'
         },
         content: 'Refletindo sobre os pequenos momentos que tornam a vida especial. ✨❤️',
         hashtags: ['#reflexão', '#vida', '#gratidão'],
@@ -1930,7 +1925,7 @@ const posts = [
             id: 28,
             name: 'Júlio Campos',
             username: '@eu_julio',
-            avatar: 'http://localhost:8080/avatar/id/28'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/28'
         },
         content: 'Treino pesado hoje, mas cada gota de suor vale a pena! 💪⚽',
         hashtags: ['#treino', '#foco', '#futebol'],
@@ -1944,7 +1939,7 @@ const posts = [
             id: 28,
             name: 'Júlio Campos',
             username: '@eu_julio',
-            avatar: 'http://localhost:8080/avatar/id/28'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/28'
         },
         content: 'Dia de jogo! Vamos com tudo, equipe! 🏟️🔥',
         hashtags: ['#gameDay', '#time', '#determinação'],
@@ -1958,7 +1953,7 @@ const posts = [
             id: 28,
             name: 'Júlio Campos',
             username: '@eu_julio',
-            avatar: 'http://localhost:8080/avatar/id/28'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/28'
         },
         content: 'Nada como sentir o apoio da torcida! Vocês são demais! 🙌❤️',
         hashtags: ['#torcida', '#gratidão', '#futebol'],
@@ -1972,7 +1967,7 @@ const posts = [
             id: 28,
             name: 'Júlio Campos',
             username: '@eu_julio',
-            avatar: 'http://localhost:8080/avatar/id/28'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/28'
         },
         content: 'Treino de recuperação concluído. Corpo em dia, mente focada! 🏃‍♂️💨',
         hashtags: ['#recuperação', '#saúde', '#futebol'],
@@ -1986,7 +1981,7 @@ const posts = [
             id: 28,
             name: 'Júlio Campos',
             username: '@eu_julio',
-            avatar: 'http://localhost:8080/avatar/id/28'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/28'
         },
         content: 'Domingo tranquilo para recarregar energias e se preparar para a próxima semana. 🌤️⚽',
         hashtags: ['#descanso', '#preparação', '#futebol'],
@@ -2001,7 +1996,7 @@ const posts = [
             id: 29,
             name: 'Luciano Primo',
             username: '@luciano_primo7',
-            avatar: 'http://localhost:8080/avatar/id/29'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/29'
         },
         content: 'Debugando um código C++ que parecia impossível de resolver… depois de horas, a vitória! 💻🔥',
         hashtags: ['#C++', '#programação', '#debug'],
@@ -2015,7 +2010,7 @@ const posts = [
             id: 29,
             name: 'Luciano Primo',
             username: '@luciano_primo7',
-            avatar: 'http://localhost:8080/avatar/id/29'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/29'
         },
         content: 'Aprendendo a otimizar loops e melhorar a performance dos meus programas. C++ é um desafio constante! ⚡💻',
         hashtags: ['#C++', '#performance', '#devlife'],
@@ -2029,7 +2024,7 @@ const posts = [
             id: 29,
             name: 'Luciano Primo',
             username: '@luciano_primo7',
-            avatar: 'http://localhost:8080/avatar/id/29'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/29'
         },
         content: 'Nada como aquele momento em que o código finalmente compila sem erros. A sensação é inexplicável! 🖥️✨',
         hashtags: ['#programador', '#C++', '#sucesso'],
@@ -2043,7 +2038,7 @@ const posts = [
             id: 29,
             name: 'Luciano Primo',
             username: '@luciano_primo7',
-            avatar: 'http://localhost:8080/avatar/id/29'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/29'
         },
         content: 'Estudando estruturas de dados hoje. A base de um bom programador nunca acaba! 📚💡',
         hashtags: ['#C++', '#estudando', '#devlife'],
@@ -2057,7 +2052,7 @@ const posts = [
             id: 29,
             name: 'Luciano Primo',
             username: '@luciano_primo7',
-            avatar: 'http://localhost:8080/avatar/id/29'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/29'
         },
         content: 'Finalizando o projeto da semana. Pequenos passos todos os dias levam a grandes conquistas! 🚀💻',
         hashtags: ['#programação', '#C++', '#projetos'],
@@ -2072,7 +2067,7 @@ const posts = [
             id: 30,
             name: 'Tadeu Trindade',
             username: '@tadeu_trindade',
-            avatar: 'http://localhost:8080/avatar/id/30'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/30'
         },
         content: 'Aproveitando o domingo para relaxar e colocar a leitura em dia. 📖☕',
         hashtags: ['#leitura', '#domingo', '#relax'],
@@ -2086,7 +2081,7 @@ const posts = [
             id: 30,
             name: 'Tadeu Trindade',
             username: '@tadeu_trindade',
-            avatar: 'http://localhost:8080/avatar/id/30'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/30'
         },
         content: 'Nada como uma boa caminhada ao ar livre para recarregar as energias. 🌳🚶‍♂️',
         hashtags: ['#natureza', '#saúde', '#bemestar'],
@@ -2100,7 +2095,7 @@ const posts = [
             id: 30,
             name: 'Tadeu Trindade',
             username: '@tadeu_trindade',
-            avatar: 'http://localhost:8080/avatar/id/30'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/30'
         },
         content: 'Testando novas receitas na cozinha hoje. Quem mais adora cozinhar nos finais de semana? 👨‍🍳🍝',
         hashtags: ['#cozinha', '#culinária', '#diversão'],
@@ -2114,7 +2109,7 @@ const posts = [
             id: 30,
             name: 'Tadeu Trindade',
             username: '@tadeu_trindade',
-            avatar: 'http://localhost:8080/avatar/id/30'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/30'
         },
         content: 'Sexta-feira chegou! Hora de curtir, relaxar e aproveitar com amigos. 🎉🍻',
         hashtags: ['#sextou', '#amizade', '#fimdesemana'],
@@ -2128,7 +2123,7 @@ const posts = [
             id: 30,
             name: 'Tadeu Trindade',
             username: '@tadeu_trindade',
-            avatar: 'http://localhost:8080/avatar/id/30'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/30'
         },
         content: 'Refletindo sobre a semana e planejando os próximos passos. Cada dia é uma nova oportunidade. ✨📅',
         hashtags: ['#reflexão', '#planejamento', '#vida'],
@@ -2143,7 +2138,7 @@ const posts = [
             id: 31,
             name: 'Santiago Gárcia',
             username: '@sant_01',
-            avatar: 'http://localhost:8080/avatar/id/31'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/31'
         },
         content: 'Disfrutando de un buen café en la mañana ☕🌞',
         hashtags: ['#café', '#mañana', '#relax'],
@@ -2157,7 +2152,7 @@ const posts = [
             id: 31,
             name: 'Santiago Gárcia',
             username: '@sant_01',
-            avatar: 'http://localhost:8080/avatar/id/31'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/31'
         },
         content: 'Fin de semana perfecto para una caminata por el parque y disfrutar la naturaleza 🌿🚶‍♂️',
         hashtags: ['#naturaleza', '#parque', '#bienestar'],
@@ -2171,7 +2166,7 @@ const posts = [
             id: 31,
             name: 'Santiago Gárcia',
             username: '@sant_01',
-            avatar: 'http://localhost:8080/avatar/id/31'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/31'
         },
         content: 'Probando nuevas recetas mexicanas en la cocina. ¡Delicioso! 🌮👨‍🍳',
         hashtags: ['#cocina', '#mexicano', '#recetas'],
@@ -2185,7 +2180,7 @@ const posts = [
             id: 31,
             name: 'Santiago Gárcia',
             username: '@sant_01',
-            avatar: 'http://localhost:8080/avatar/id/31'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/31'
         },
         content: 'Disfrutando del fútbol con amigos y buena compañía ⚽🍻',
         hashtags: ['#fútbol', '#amistad', '#diversión'],
@@ -2199,7 +2194,7 @@ const posts = [
             id: 31,
             name: 'Santiago Gárcia',
             username: '@sant_01',
-            avatar: 'http://localhost:8080/avatar/id/31'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/31'
         },
         content: 'Reflexionando sobre la semana y preparando metas para la próxima ✨📅',
         hashtags: ['#reflexión', '#metas', '#vida'],
@@ -2214,7 +2209,7 @@ const posts = [
             id: 32,
             name: 'Jasper Walter',
             username: '@jas_walter',
-            avatar: 'http://localhost:8080/avatar/id/32'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/32'
         },
         content: 'Experimenting with new beats for my next set. Music is life! 🎧🔥',
         hashtags: ['#DJLife', '#music', '#beats'],
@@ -2228,7 +2223,7 @@ const posts = [
             id: 32,
             name: 'Jasper Walter',
             username: '@jas_walter',
-            avatar: 'http://localhost:8080/avatar/id/32'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/32'
         },
         content: 'Composing new tracks and exploring different sounds. Creativity at full speed! 🎹✨',
         hashtags: ['#composer', '#musicproduction', '#creative'],
@@ -2242,7 +2237,7 @@ const posts = [
             id: 32,
             name: 'Jasper Walter',
             username: '@jas_walter',
-            avatar: 'http://localhost:8080/avatar/id/32'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/32'
         },
         content: 'Night DJ set completed! The energy on the dance floor is incredible. 🙌🎶',
         hashtags: ['#DJSet', '#nightlife', '#musiclover'],
@@ -2256,7 +2251,7 @@ const posts = [
             id: 32,
             name: 'Jasper Walter',
             username: '@jas_walter',
-            avatar: 'http://localhost:8080/avatar/id/32'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/32'
         },
         content: 'Working on a new collab with local artists. Music brings people together! 🎼🤝',
         hashtags: ['#collab', '#musiccommunity', '#creative'],
@@ -2270,7 +2265,7 @@ const posts = [
             id: 32,
             name: 'Jasper Walter',
             username: '@jas_walter',
-            avatar: 'http://localhost:8080/avatar/id/32'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/32'
         },
         content: 'Finishing the mix of a new track. Can’t wait to share it! 🎛️🎶',
         hashtags: ['#mixing', '#musicproduction', '#DJLife'],
@@ -2285,7 +2280,7 @@ const posts = [
             id: 33,
             name: 'Kauê Matos',
             username: '@eu_kaue',
-            avatar: 'http://localhost:8080/avatar/id/33'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/33'
         },
         content: 'Capturando a beleza nos momentos do dia a dia. A fotografia é meu jeito de enxergar o mundo. 📸✨',
         hashtags: ['#fotografia', '#arte', '#inspiração'],
@@ -2299,7 +2294,7 @@ const posts = [
             id: 33,
             name: 'Kauê Matos',
             username: '@eu_kaue',
-            avatar: 'http://localhost:8080/avatar/id/33'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/33'
         },
         content: 'Experimentando luzes e sombras hoje. Cada clique conta uma história. 🌅📷',
         hashtags: ['#fotografia', '#criativo', '#arte'],
@@ -2313,7 +2308,7 @@ const posts = [
             id: 33,
             name: 'Kauê Matos',
             username: '@eu_kaue',
-            avatar: 'http://localhost:8080/avatar/id/33'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/33'
         },
         content: 'Explorando paisagens urbanas e capturando os detalhes escondidos. 🏙️📸',
         hashtags: ['#urbano', '#fotografia', '#arte'],
@@ -2327,7 +2322,7 @@ const posts = [
             id: 33,
             name: 'Kauê Matos',
             username: '@eu_kaue',
-            avatar: 'http://localhost:8080/avatar/id/33'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/33'
         },
         content: 'Inspirado pelas cores e texturas. A arte está em todo lugar, basta observar. 🎨👀',
         hashtags: ['#arte', '#inspiração', '#criatividade'],
@@ -2341,7 +2336,7 @@ const posts = [
             id: 33,
             name: 'Kauê Matos',
             username: '@eu_kaue',
-            avatar: 'http://localhost:8080/avatar/id/33'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/33'
         },
         content: 'Um novo projeto fotográfico começa hoje. Ansioso para ver onde essa jornada criativa vai me levar! 📷🚀',
         hashtags: ['#projetofotográfico', '#criatividade', '#fotografia'],
@@ -2356,7 +2351,7 @@ const posts = [
             id: 34,
             name: 'Otávio Lucas',
             username: '@otavio0',
-            avatar: 'http://localhost:8080/avatar/id/34'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/34'
         },
         content: 'Mais um dia intenso no restaurante, mas adoro ver os clientes felizes! 🍽️😊',
         hashtags: ['#trabalho', '#garçom', '#satisfação'],
@@ -2370,7 +2365,7 @@ const posts = [
             id: 34,
             name: 'Otávio Lucas',
             username: '@otavio0',
-            avatar: 'http://localhost:8080/avatar/id/34'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/34'
         },
         content: 'Aquele momento de calmaria entre os turnos. Hora de recarregar as energias. ☕✨',
         hashtags: ['#descanso', '#trabalho', '#vida'],
@@ -2384,7 +2379,7 @@ const posts = [
             id: 34,
             name: 'Otávio Lucas',
             username: '@otavio0',
-            avatar: 'http://localhost:8080/avatar/id/34'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/34'
         },
         content: 'Sexta-feira movimentada no restaurante! Nada como ver a equipe unida e eficiente. 👏🍷',
         hashtags: ['#sextou', '#equipe', '#trabalho'],
@@ -2398,7 +2393,7 @@ const posts = [
             id: 34,
             name: 'Otávio Lucas',
             username: '@otavio0',
-            avatar: 'http://localhost:8080/avatar/id/34'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/34'
         },
         content: 'Aprendendo novas técnicas de atendimento para sempre melhorar a experiência dos clientes. 📝😊',
         hashtags: ['#aprendizado', '#clientes', '#garçom'],
@@ -2412,7 +2407,7 @@ const posts = [
             id: 34,
             name: 'Otávio Lucas',
             username: '@otavio0',
-            avatar: 'http://localhost:8080/avatar/id/34'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/34'
         },
         content: 'Domingo tranquilo, refletindo sobre a semana e planejando novas metas. 🌤️💪',
         hashtags: ['#reflexão', '#planejamento', '#vida'],
@@ -2427,7 +2422,7 @@ const posts = [
             id: 35,
             name: 'Sandra Dantas',
             username: '@sandra_dantas',
-            avatar: 'http://localhost:8080/avatar/id/35'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/35'
         },
         content: 'Reunião produtiva com a equipe hoje! Adoro ver os resultados do nosso trabalho. 👗📊',
         hashtags: ['#moda', '#gestão', '#trabalho'],
@@ -2441,7 +2436,7 @@ const posts = [
             id: 35,
             name: 'Sandra Dantas',
             username: '@sandra_dantas',
-            avatar: 'http://localhost:8080/avatar/id/35'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/35'
         },
         content: 'Supervisionando a nova coleção e garantindo que tudo esteja impecável! ✨👜',
         hashtags: ['#modafeminina', '#equipe', '#inspiração'],
@@ -2455,7 +2450,7 @@ const posts = [
             id: 35,
             name: 'Sandra Dantas',
             username: '@sandra_dantas',
-            avatar: 'http://localhost:8080/avatar/id/35'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/35'
         },
         content: 'Sexta-feira de planejamento estratégico para a loja. O sucesso vem com organização! 📋💼',
         hashtags: ['#moda', '#planejamento', '#trabalho'],
@@ -2469,7 +2464,7 @@ const posts = [
             id: 35,
             name: 'Sandra Dantas',
             username: '@sandra_dantas',
-            avatar: 'http://localhost:8080/avatar/id/35'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/35'
         },
         content: 'Inspirando a equipe com novas ideias e tendências da moda. 👠✨',
         hashtags: ['#moda', '#inspiração', '#equipe'],
@@ -2483,7 +2478,7 @@ const posts = [
             id: 35,
             name: 'Sandra Dantas',
             username: '@sandra_dantas',
-            avatar: 'http://localhost:8080/avatar/id/35'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/35'
         },
         content: 'Fim de semana chegando! Hora de recarregar as energias e voltar com tudo na próxima semana. 🌤️💪',
         hashtags: ['#fimdesemana', '#motivação', '#trabalho'],
@@ -2498,7 +2493,7 @@ const posts = [
             id: 36,
             name: 'Pedro Machado',
             username: '@pedro8',
-            avatar: 'http://localhost:8080/avatar/id/36'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/36'
         },
         content: 'Aproveitando a manhã para caminhar e tomar um café fresco. ☕🌤️',
         hashtags: ['#manhã', '#café', '#bemestar'],
@@ -2512,7 +2507,7 @@ const posts = [
             id: 36,
             name: 'Pedro Machado',
             username: '@pedro8',
-            avatar: 'http://localhost:8080/avatar/id/36'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/36'
         },
         content: 'Sexta-feira animada com os amigos! Hora de relaxar e se divertir. 🎉🍻',
         hashtags: ['#sextou', '#amizade', '#diversão'],
@@ -2526,7 +2521,7 @@ const posts = [
             id: 36,
             name: 'Pedro Machado',
             username: '@pedro8',
-            avatar: 'http://localhost:8080/avatar/id/36'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/36'
         },
         content: 'Passando um tempo na natureza para recarregar as energias. 🌳🌞',
         hashtags: ['#natureza', '#relax', '#vida'],
@@ -2540,7 +2535,7 @@ const posts = [
             id: 36,
             name: 'Pedro Machado',
             username: '@pedro8',
-            avatar: 'http://localhost:8080/avatar/id/36'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/36'
         },
         content: 'Testando uma nova receita hoje! Cozinhar é sempre uma aventura. 👨‍🍳🍝',
         hashtags: ['#cozinha', '#culinária', '#diversão'],
@@ -2554,7 +2549,7 @@ const posts = [
             id: 36,
             name: 'Pedro Machado',
             username: '@pedro8',
-            avatar: 'http://localhost:8080/avatar/id/36'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/36'
         },
         content: 'Planejando a semana e definindo novas metas. Cada dia é uma nova oportunidade! ✨📅',
         hashtags: ['#planejamento', '#motivação', '#vida'],
@@ -2569,7 +2564,7 @@ const posts = [
             id: 37,
             name: 'Carlos Abraão',
             username: '@eu_carlinhos',
-            avatar: 'http://localhost:8080/avatar/id/37'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/37'
         },
         content: 'Descobri um café novo na cidade. Aroma incrível e ambiente acolhedor! ☕🏙️',
         hashtags: ['#cafénovo', '#descobertas', '#cidade'],
@@ -2583,7 +2578,7 @@ const posts = [
             id: 37,
             name: 'Carlos Abraão',
             username: '@eu_carlinhos',
-            avatar: 'http://localhost:8080/avatar/id/37'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/37'
         },
         content: 'Passeio de bicicleta ao entardecer. Nada como sentir o vento no rosto. 🚴‍♂️🌇',
         hashtags: ['#bike', '#aventura', '#paz'],
@@ -2597,7 +2592,7 @@ const posts = [
             id: 37,
             name: 'Carlos Abraão',
             username: '@eu_carlinhos',
-            avatar: 'http://localhost:8080/avatar/id/37'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/37'
         },
         content: 'Aprendendo a tocar violão sozinho. Cada acorde é uma conquista! 🎸✨',
         hashtags: ['#violão', '#aprendizado', '#musica'],
@@ -2611,7 +2606,7 @@ const posts = [
             id: 37,
             name: 'Carlos Abraão',
             username: '@eu_carlinhos',
-            avatar: 'http://localhost:8080/avatar/id/37'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/37'
         },
         content: 'Fim de tarde na praia refletindo sobre a vida. Simples momentos são os melhores. 🌊🌅',
         hashtags: ['#praia', '#reflexão', '#vida'],
@@ -2625,7 +2620,7 @@ const posts = [
             id: 37,
             name: 'Carlos Abraão',
             username: '@eu_carlinhos',
-            avatar: 'http://localhost:8080/avatar/id/37'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/37'
         },
         content: 'Descobrindo novos restaurantes na cidade e experimentando pratos incríveis! 🍲🍴',
         hashtags: ['#gastronomia', '#descobertas', '#cidade'],
@@ -2640,7 +2635,7 @@ const posts = [
             id: 38,
             name: 'Pedro Loss',
             username: '@pedro_loss',
-            avatar: 'http://localhost:8080/avatar/id/38'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/38'
         },
         content: 'Começando a semana com energia e foco total! 💪✨',
         hashtags: ['#motivação', '#energia', '#foco'],
@@ -2654,7 +2649,7 @@ const posts = [
             id: 38,
             name: 'Pedro Loss',
             username: '@pedro_loss',
-            avatar: 'http://localhost:8080/avatar/id/38'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/38'
         },
         content: 'Descobrindo novas trilhas para corrida. A natureza sempre inspira! 🏞️🏃‍♂️',
         hashtags: ['#corrida', '#natureza', '#inspiração'],
@@ -2668,7 +2663,7 @@ const posts = [
             id: 38,
             name: 'Pedro Loss',
             username: '@pedro_loss',
-            avatar: 'http://localhost:8080/avatar/id/38'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/38'
         },
         content: 'Tarde de leitura e aprendizado. Conhecimento nunca é demais! 📚✨',
         hashtags: ['#leitura', '#aprendizado', '#conhecimento'],
@@ -2682,7 +2677,7 @@ const posts = [
             id: 38,
             name: 'Pedro Loss',
             username: '@pedro_loss',
-            avatar: 'http://localhost:8080/avatar/id/38'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/38'
         },
         content: 'Experimentando uma nova receita no jantar. Cozinhar é um prazer! 🍳🍝',
         hashtags: ['#culinária', '#cozinha', '#prazer'],
@@ -2696,7 +2691,7 @@ const posts = [
             id: 38,
             name: 'Pedro Loss',
             username: '@pedro_loss',
-            avatar: 'http://localhost:8080/avatar/id/38'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/38'
         },
         content: 'Noite tranquila para refletir sobre a semana e planejar novos objetivos. 🌙📝',
         hashtags: ['#reflexão', '#planejamento', '#vida'],
@@ -2711,7 +2706,7 @@ const posts = [
             id: 39,
             name: 'Fabíola Martins',
             username: '@fa_martins0',
-            avatar: 'http://localhost:8080/avatar/id/39'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/39'
         },
         content: 'Iniciando o dia com uma boa caminhada pelo bairro. Saúde em primeiro lugar! 🚶‍♀️🌞',
         hashtags: ['#saúde', '#caminhada', '#manhã'],
@@ -2725,7 +2720,7 @@ const posts = [
             id: 39,
             name: 'Fabíola Martins',
             username: '@fa_martins0',
-            avatar: 'http://localhost:8080/avatar/id/39'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/39'
         },
         content: 'Hora de colocar a leitura em dia. Nada como aprender algo novo todos os dias! 📖✨',
         hashtags: ['#leitura', '#aprendizado', '#conhecimento'],
@@ -2739,7 +2734,7 @@ const posts = [
             id: 39,
             name: 'Fabíola Martins',
             username: '@fa_martins0',
-            avatar: 'http://localhost:8080/avatar/id/39'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/39'
         },
         content: 'Final de semana perfeito para um café com os amigos e boas conversas. ☕👥',
         hashtags: ['#amizade', '#café', '#fimdesemana'],
@@ -2753,7 +2748,7 @@ const posts = [
             id: 39,
             name: 'Fabíola Martins',
             username: '@fa_martins0',
-            avatar: 'http://localhost:8080/avatar/id/39'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/39'
         },
         content: 'Explorando novos sabores na cozinha hoje. Amo testar receitas diferentes! 🍳🥗',
         hashtags: ['#culinária', '#cozinha', '#experimentar'],
@@ -2767,7 +2762,7 @@ const posts = [
             id: 39,
             name: 'Fabíola Martins',
             username: '@fa_martins0',
-            avatar: 'http://localhost:8080/avatar/id/39'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/39'
         },
         content: 'Noite tranquila para refletir e planejar a semana que vem. Organização é tudo! 📝🌙',
         hashtags: ['#planejamento', '#reflexão', '#vida'],
@@ -2782,7 +2777,7 @@ const posts = [
             id: 40,
             name: 'Maria de Fátima Cardoso',
             username: '@maria_cardoso',
-            avatar: 'http://localhost:8080/avatar/id/40'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/40'
         },
         content: 'Manhã ensolarada perfeita para organizar a casa e começar o dia com energia! ☀️🏡',
         hashtags: ['#manhã', '#energia', '#organização'],
@@ -2796,7 +2791,7 @@ const posts = [
             id: 40,
             name: 'Maria de Fátima Cardoso',
             username: '@maria_cardoso',
-            avatar: 'http://localhost:8080/avatar/id/40'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/40'
         },
         content: 'Tarde de chá com amigas, boas conversas e risadas garantidas. 🍵💛',
         hashtags: ['#amizade', '#chá', '#diversão'],
@@ -2810,7 +2805,7 @@ const posts = [
             id: 40,
             name: 'Maria de Fátima Cardoso',
             username: '@maria_cardoso',
-            avatar: 'http://localhost:8080/avatar/id/40'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/40'
         },
         content: 'Adoro tardes de leitura no jardim. Paz e inspiração em cada página. 📖🌸',
         hashtags: ['#leitura', '#inspiração', '#jardim'],
@@ -2824,7 +2819,7 @@ const posts = [
             id: 40,
             name: 'Maria de Fátima Cardoso',
             username: '@maria_cardoso',
-            avatar: 'http://localhost:8080/avatar/id/40'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/40'
         },
         content: 'Preparando um jantar especial para a família. Momentos simples são os melhores! 🍲❤️',
         hashtags: ['#família', '#culinária', '#momentos'],
@@ -2838,7 +2833,7 @@ const posts = [
             id: 40,
             name: 'Maria de Fátima Cardoso',
             username: '@maria_cardoso',
-            avatar: 'http://localhost:8080/avatar/id/40'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/40'
         },
         content: 'Final de domingo refletindo sobre a semana e traçando novos objetivos. 🌙📝',
         hashtags: ['#reflexão', '#planejamento', '#vida'],
@@ -2853,7 +2848,7 @@ const posts = [
             id: 41,
             name: 'Letícia Ferraz',
             username: '@leh7',
-            avatar: 'http://localhost:8080/avatar/id/41'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/41'
         },
         content: 'Hoje acordei mais leve, às vezes tudo o que precisamos é de silêncio e um bom café. ☕✨',
         hashtags: ['#paz', '#silêncio', '#café'],
@@ -2867,7 +2862,7 @@ const posts = [
             id: 41,
             name: 'Letícia Ferraz',
             username: '@leh7',
-            avatar: 'http://localhost:8080/avatar/id/41'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/41'
         },
         content: 'Uma caminhada pela manhã muda completamente a energia do dia. 🚶‍♀️🌞',
         hashtags: ['#energia', '#bemestar', '#vida'],
@@ -2881,7 +2876,7 @@ const posts = [
             id: 41,
             name: 'Letícia Ferraz',
             username: '@leh7',
-            avatar: 'http://localhost:8080/avatar/id/41'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/41'
         },
         content: 'Não subestime o poder de um pequeno passo todos os dias. 🪄🌱',
         hashtags: ['#motivação', '#crescimento', '#consistência'],
@@ -2895,7 +2890,7 @@ const posts = [
             id: 41,
             name: 'Letícia Ferraz',
             username: '@leh7',
-            avatar: 'http://localhost:8080/avatar/id/41'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/41'
         },
         content: 'Domingo é dia de organizar a mente e preparar o coração para a semana. 💫🗓️',
         hashtags: ['#organização', '#domingo', '#equilíbrio'],
@@ -2909,7 +2904,7 @@ const posts = [
             id: 41,
             name: 'Letícia Ferraz',
             username: '@leh7',
-            avatar: 'http://localhost:8080/avatar/id/41'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/41'
         },
         content: 'A gratidão transforma a forma como enxergamos cada detalhe da vida. 🌺🙏',
         hashtags: ['#gratidão', '#vida', '#positividade'],
@@ -2924,7 +2919,7 @@ const posts = [
             id: 42,
             name: 'Carolina Carpenter',
             username: '@carolilna_carpenter',
-            avatar: 'http://localhost:8080/avatar/id/42'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/42'
         },
         content: 'Começando a semana com café forte e boas ideias. ☕💡',
         hashtags: ['#segunda', '#energia', '#boasvibrações'],
@@ -2938,7 +2933,7 @@ const posts = [
             id: 42,
             name: 'Carolina Carpenter',
             username: '@carolilna_carpenter',
-            avatar: 'http://localhost:8080/avatar/id/42'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/42'
         },
         content: 'Nada como uma boa playlist para acompanhar o trabalho. 🎶💻',
         hashtags: ['#música', '#trabalho', '#produtividade'],
@@ -2952,7 +2947,7 @@ const posts = [
             id: 42,
             name: 'Carolina Carpenter',
             username: '@carolilna_carpenter',
-            avatar: 'http://localhost:8080/avatar/id/42'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/42'
         },
         content: 'Às vezes, tudo o que precisamos é de uma pausa para respirar fundo. 🌿✨',
         hashtags: ['#equilíbrio', '#bemestar', '#paz'],
@@ -2966,7 +2961,7 @@ const posts = [
             id: 42,
             name: 'Carolina Carpenter',
             username: '@carolilna_carpenter',
-            avatar: 'http://localhost:8080/avatar/id/42'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/42'
         },
         content: 'Cada dia é uma nova oportunidade de escrever nossa própria história. 📖🌟',
         hashtags: ['#motivação', '#inspiração', '#vida'],
@@ -2980,7 +2975,7 @@ const posts = [
             id: 42,
             name: 'Carolina Carpenter',
             username: '@carolilna_carpenter',
-            avatar: 'http://localhost:8080/avatar/id/42'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/42'
         },
         content: 'Um pôr do sol sempre traz a sensação de recomeço. 🌅❤️',
         hashtags: ['#pordosol', '#natureza', '#gratidão'],
@@ -2995,7 +2990,7 @@ const posts = [
             id: 43,
             name: 'Vincent Bauboa',
             username: '@vincent',
-            avatar: 'http://localhost:8080/avatar/id/43'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/43'
         },
         content: 'Spent the whole night in the studio and finally finished a track that feels like pure magic. Can’t wait to share it. 🎶✨',
         hashtags: ['#music', '#studio', '#newtrack'],
@@ -3009,7 +3004,7 @@ const posts = [
             id: 43,
             name: 'Vincent Bauboa',
             username: '@vincent',
-            avatar: 'http://localhost:8080/avatar/id/43'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/43'
         },
         content: 'Sometimes the best songs come from the simplest moments. Just me, my guitar, and the sunset. 🌅🎸',
         hashtags: ['#songwriting', '#artistlife', '#inspiration'],
@@ -3023,7 +3018,7 @@ const posts = [
             id: 43,
             name: 'Vincent Bauboa',
             username: '@vincent',
-            avatar: 'http://localhost:8080/avatar/id/43'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/43'
         },
         content: 'Performing live is where I feel most alive. Thank you to everyone who came out last night—your energy was unreal! 🔥🙌',
         hashtags: ['#livemusic', '#performance', '#gratitude'],
@@ -3037,7 +3032,7 @@ const posts = [
             id: 43,
             name: 'Vincent Bauboa',
             username: '@vincent',
-            avatar: 'http://localhost:8080/avatar/id/43'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/43'
         },
         content: 'Art isn’t about perfection, it’s about connection. Every note, every lyric, is a piece of my soul. 🎤💫',
         hashtags: ['#artist', '#creativity', '#musicislife'],
@@ -3051,7 +3046,7 @@ const posts = [
             id: 43,
             name: 'Vincent Bauboa',
             username: '@vincent',
-            avatar: 'http://localhost:8080/avatar/id/43'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/43'
         },
         content: 'Working on a collab with an incredible musician—this one’s gonna surprise you. Stay tuned. 👀🎵',
         hashtags: ['#collaboration', '#newmusic', '#artistlife'],
@@ -3066,7 +3061,7 @@ const posts = [
             id: 44,
             name: 'Ludmila Melo',
             username: '@luh_melo',
-            avatar: 'http://localhost:8080/avatar/id/44'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/44'
         },
         content: 'A vida é feita de pequenos momentos que se tornam grandes lembranças. 💫',
         hashtags: ['#momentos', '#lembranças', '#vida'],
@@ -3080,7 +3075,7 @@ const posts = [
             id: 44,
             name: 'Ludmila Melo',
             username: '@luh_melo',
-            avatar: 'http://localhost:8080/avatar/id/44'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/44'
         },
         content: 'A persistência transforma sonhos em realidade. ✨',
         hashtags: ['#foco', '#determinação', '#sonhos'],
@@ -3094,7 +3089,7 @@ const posts = [
             id: 44,
             name: 'Ludmila Melo',
             username: '@luh_melo',
-            avatar: 'http://localhost:8080/avatar/id/44'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/44'
         },
         content: 'Nada como uma boa música para mudar o humor do dia. 🎶',
         hashtags: ['#música', '#goodvibes', '#energia'],
@@ -3108,7 +3103,7 @@ const posts = [
             id: 44,
             name: 'Ludmila Melo',
             username: '@luh_melo',
-            avatar: 'http://localhost:8080/avatar/id/44'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/44'
         },
         content: 'Gratidão por cada conquista, por menor que seja. 🌻',
         hashtags: ['#gratidão', '#positividade', '#conquistas'],
@@ -3122,7 +3117,7 @@ const posts = [
             id: 44,
             name: 'Ludmila Melo',
             username: '@luh_melo',
-            avatar: 'http://localhost:8080/avatar/id/44'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/44'
         },
         content: 'Um passo de cada vez, mas sempre em frente. 🚶‍♀️',
         hashtags: ['#foco', '#determinação', '#força'],
@@ -3137,7 +3132,7 @@ const posts = [
             id: 45,
             name: 'Thiago Machado',
             username: '@thiago_machado0',
-            avatar: 'http://localhost:8080/avatar/id/45'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/45'
         },
         content: 'Segunda-feira começando e já tô cheio de planos pra colocar em prática. 🚀💡',
         hashtags: ['#foco', '#motivação', '#novasemana'],
@@ -3151,7 +3146,7 @@ const posts = [
             id: 45,
             name: 'Thiago Machado',
             username: '@thiago_machado0',
-            avatar: 'http://localhost:8080/avatar/id/45'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/45'
         },
         content: 'Às vezes, um café forte resolve metade dos problemas do dia. ☕🔥',
         hashtags: ['#café', '#rotina', '#vida'],
@@ -3165,7 +3160,7 @@ const posts = [
             id: 45,
             name: 'Thiago Machado',
             username: '@thiago_machado0',
-            avatar: 'http://localhost:8080/avatar/id/45'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/45'
         },
         content: 'No meio da correria, a gente precisa aprender a celebrar as pequenas vitórias. 🎉✨',
         hashtags: ['#gratidão', '#vitórias', '#positividade'],
@@ -3179,7 +3174,7 @@ const posts = [
             id: 45,
             name: 'Thiago Machado',
             username: '@thiago_machado0',
-            avatar: 'http://localhost:8080/avatar/id/45'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/45'
         },
         content: 'Música alta e mente leve. Nada melhor pra seguir o dia. 🎶😌',
         hashtags: ['#música', '#relaxar', '#energia'],
@@ -3193,7 +3188,7 @@ const posts = [
             id: 45,
             name: 'Thiago Machado',
             username: '@thiago_machado0',
-            avatar: 'http://localhost:8080/avatar/id/45'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/45'
         },
         content: 'Fechando o dia com a sensação de dever cumprido. 🙏✨',
         hashtags: ['#paz', '#fimdedia', '#equilíbrio'],
@@ -3208,7 +3203,7 @@ const posts = [
             id: 46,
             name: 'Andressa Fernandes',
             username: '@drê_fernandes',
-            avatar: 'http://localhost:8080/avatar/id/46'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/46'
         },
         content: 'Comprei uma planta pra dar vida à sala… dois dias depois ela me olha como se dissesse: “me devolve pro mato, criatura”. 🌱😂',
         hashtags: ['#vidaemcasa', '#plantas', '#humor'],
@@ -3222,7 +3217,7 @@ const posts = [
             id: 46,
             name: 'Andressa Fernandes',
             username: '@drê_fernandes',
-            avatar: 'http://localhost:8080/avatar/id/46'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/46'
         },
         content: 'Eu tentando comer saudável: salada e frango grelhado. Duas horas depois: “cadê meu brigadeiro, gente?” 🍫🙃',
         hashtags: ['#alimentação', '#humor', '#gula'],
@@ -3236,7 +3231,7 @@ const posts = [
             id: 46,
             name: 'Andressa Fernandes',
             username: '@drê_fernandes',
-            avatar: 'http://localhost:8080/avatar/id/46'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/46'
         },
         content: 'Quem inventou segunda-feira devia estar de mal com a humanidade. Só pode. ☕️😭',
         hashtags: ['#segunda-feira', '#realidade', '#humor'],
@@ -3250,7 +3245,7 @@ const posts = [
             id: 46,
             name: 'Andressa Fernandes',
             username: '@drê_fernandes',
-            avatar: 'http://localhost:8080/avatar/id/46'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/46'
         },
         content: 'Jurei que ia dormir cedo ontem… lembrei de “só um episódio”. Agora tô aqui parecendo um zumbi elegante. 🧟‍♀️📺',
         hashtags: ['#sono', '#séries', '#humor'],
@@ -3264,7 +3259,7 @@ const posts = [
             id: 46,
             name: 'Andressa Fernandes',
             username: '@drê_fernandes',
-            avatar: 'http://localhost:8080/avatar/id/46'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/46'
         },
         content: 'Fazer lista de tarefas e… esquecer onde coloquei a lista. Produtividade nível expert. 📝😅',
         hashtags: ['#organização', '#humor', '#vida'],
@@ -3279,7 +3274,7 @@ const posts = [
             id: 47,
             name: 'Mario Alves',
             username: '@mario_alves',
-            avatar: 'http://localhost:8080/avatar/id/47'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/47'
         },
         content: 'Experimentando novas técnicas de pintura hoje. Cada traço é uma descoberta. 🎨✨',
         hashtags: ['#arte', '#pintura', '#criatividade'],
@@ -3293,7 +3288,7 @@ const posts = [
             id: 47,
             name: 'Mario Alves',
             username: '@mario_alves',
-            avatar: 'http://localhost:8080/avatar/id/47'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/47'
         },
         content: 'Nada como ouvir jazz enquanto o pincel dança sobre a tela. 🎷🖌️',
         hashtags: ['#arte', '#jazz', '#inspiração'],
@@ -3307,7 +3302,7 @@ const posts = [
             id: 47,
             name: 'Mario Alves',
             username: '@mario_alves',
-            avatar: 'http://localhost:8080/avatar/id/47'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/47'
         },
         content: 'Uma obra nunca está pronta, apenas em constante evolução. 🖌️🌟',
         hashtags: ['#arte', '#evolução', '#criatividade'],
@@ -3321,7 +3316,7 @@ const posts = [
             id: 47,
             name: 'Mario Alves',
             username: '@mario_alves',
-            avatar: 'http://localhost:8080/avatar/id/47'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/47'
         },
         content: 'Participando de uma exposição local. Nada melhor que ver pessoas emocionadas com o que criamos. 🖼️❤️',
         hashtags: ['#arte', '#exposição', '#emoção'],
@@ -3335,7 +3330,7 @@ const posts = [
             id: 47,
             name: 'Mario Alves',
             username: '@mario_alves',
-            avatar: 'http://localhost:8080/avatar/id/47'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/47'
         },
         content: 'Criar é o meu refúgio, meu momento de liberdade absoluta. 🌈🎨',
         hashtags: ['#arte', '#liberdade', '#criatividade'],
@@ -3350,7 +3345,7 @@ const posts = [
             id: 48,
             name: 'Amanda Flores',
             username: '@me_amanda0',
-            avatar: 'http://localhost:8080/avatar/id/48'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/48'
         },
         content: 'Hoje acordei com tanta energia… que fui tomar mais um cochilo. 😅🛌',
         hashtags: ['#vidaReal', '#preguiça', '#humor'],
@@ -3364,7 +3359,7 @@ const posts = [
             id: 48,
             name: 'Amanda Flores',
             username: '@me_amanda0',
-            avatar: 'http://localhost:8080/avatar/id/48'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/48'
         },
         content: 'Minha meta do dia: ser produtiva. Realidade: passei horas conversando com meu cachorro. 🐶😂',
         hashtags: ['#procrastinação', '#humor', '#vida'],
@@ -3378,7 +3373,7 @@ const posts = [
             id: 48,
             name: 'Amanda Flores',
             username: '@me_amanda0',
-            avatar: 'http://localhost:8080/avatar/id/48'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/48'
         },
         content: 'Tentei cozinhar… e agora o detector de fumaça tá me xingando. 🍳🔥😅',
         hashtags: ['#cozinha', '#desastre', '#humor'],
@@ -3392,7 +3387,7 @@ const posts = [
             id: 48,
             name: 'Amanda Flores',
             username: '@me_amanda0',
-            avatar: 'http://localhost:8080/avatar/id/48'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/48'
         },
         content: 'Minha dieta: começa amanhã. Meu estômago: começa agora. 🍕🤣',
         hashtags: ['#dietaFail', '#humor', '#comida'],
@@ -3406,7 +3401,7 @@ const posts = [
             id: 48,
             name: 'Amanda Flores',
             username: '@me_amanda0',
-            avatar: 'http://localhost:8080/avatar/id/48'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/48'
         },
         content: 'Se rir é o melhor remédio, tô curada de todos os problemas da semana. 😂💊',
         hashtags: ['#humor', '#alegria', '#vida'],
@@ -3421,7 +3416,7 @@ const posts = [
             id: 49,
             name: 'Eliot Page',
             username: '@eliot_page',
-            avatar: 'http://localhost:8080/avatar/id/49'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/49'
         },
         content: 'Spent the day exploring new color palettes for my upcoming projects. 🎨✨',
         hashtags: ['#design', '#colors', '#creativity'],
@@ -3435,7 +3430,7 @@ const posts = [
             id: 49,
             name: 'Eliot Page',
             username: '@eliot_page',
-            avatar: 'http://localhost:8080/avatar/id/49'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/49'
         },
         content: 'Minimalism is not about what you remove, it’s about what you choose to keep. 🖌️🖤',
         hashtags: ['#design', '#minimalism', '#inspiration'],
@@ -3449,7 +3444,7 @@ const posts = [
             id: 49,
             name: 'Eliot Page',
             username: '@eliot_page',
-            avatar: 'http://localhost:8080/avatar/id/49'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/49'
         },
         content: 'Playing with typography is like exploring emotions on a digital canvas. ✍️🎨',
         hashtags: ['#typography', '#design', '#creativity'],
@@ -3463,7 +3458,7 @@ const posts = [
             id: 49,
             name: 'Eliot Page',
             username: '@eliot_page',
-            avatar: 'http://localhost:8080/avatar/id/49'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/49'
         },
         content: 'Today my mood is vector and gradient. Always stylish, always creative. 🌈🖌️',
         hashtags: ['#graphicdesign', '#vector', '#colors'],
@@ -3477,7 +3472,7 @@ const posts = [
             id: 49,
             name: 'Eliot Page',
             username: '@eliot_page',
-            avatar: 'http://localhost:8080/avatar/id/49'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/49'
         },
         content: 'Nothing beats seeing a clean, functional interface come alive in the user’s hands. 💻✨',
         hashtags: ['#UX', '#UI', '#design'],
@@ -3492,7 +3487,7 @@ const posts = [
             id: 50,
             name: 'Bruce Cane',
             username: '@me_bruce',
-            avatar: 'http://localhost:8080/avatar/id/50'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/50'
         },
         content: 'Nothing like a cup of coffee to make Monday feel slightly less like a Monday. ☕😂',
         hashtags: ['#coffee', '#mondayvibes', '#humor'],
@@ -3506,7 +3501,7 @@ const posts = [
             id: 50,
             name: 'Bruce Cane',
             username: '@me_bruce',
-            avatar: 'http://localhost:8080/avatar/id/50'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/50'
         },
         content: 'Tried to eat healthy today… ended up negotiating with a slice of pizza. 🍕😅',
         hashtags: ['#foodie', '#dietfail', '#humor'],
@@ -3520,7 +3515,7 @@ const posts = [
             id: 50,
             name: 'Bruce Cane',
             username: '@me_bruce',
-            avatar: 'http://localhost:8080/avatar/id/50'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/50'
         },
         content: 'Work-from-home life: pants optional, creativity mandatory. 😎💻',
         hashtags: ['#wfh', '#humor', '#creativity'],
@@ -3534,7 +3529,7 @@ const posts = [
             id: 50,
             name: 'Bruce Cane',
             username: '@me_bruce',
-            avatar: 'http://localhost:8080/avatar/id/50'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/50'
         },
         content: 'My plant is judging me for forgetting to water it… silently, but I feel it. 🌱😂',
         hashtags: ['#plants', '#humor', '#life'],
@@ -3548,7 +3543,7 @@ const posts = [
             id: 50,
             name: 'Bruce Cane',
             username: '@me_bruce',
-            avatar: 'http://localhost:8080/avatar/id/50'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/50'
         },
         content: 'If procrastination was an Olympic sport, I’d have a gold medal by now. 🏅😅',
         hashtags: ['#procrastination', '#humor', '#life'],
@@ -3563,7 +3558,7 @@ const posts = [
             id: 51,
             name: 'Marcos Benicio',
             username: '@by_marcos',
-            avatar: 'http://localhost:8080/avatar/id/51'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/51'
         },
         content: 'Hoje fui chamado para consertar um disjuntor… e acabei aprendendo umas gambiarras novas. ⚡😅',
         hashtags: ['#eletricista', '#trabalho', '#humor'],
@@ -3577,7 +3572,7 @@ const posts = [
             id: 51,
             name: 'Marcos Benicio',
             username: '@by_marcos',
-            avatar: 'http://localhost:8080/avatar/id/51'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/51'
         },
         content: 'Nada como a sensação de acender a luz depois de horas mexendo em fiação antiga. 💡✨',
         hashtags: ['#eletricista', '#trabalho', '#satisfação'],
@@ -3591,7 +3586,7 @@ const posts = [
             id: 51,
             name: 'Marcos Benicio',
             username: '@by_marcos',
-            avatar: 'http://localhost:8080/avatar/id/51'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/51'
         },
         content: 'Quando o cliente diz “não sei onde é o problema” e você encontra tudo desligado… 😂⚡',
         hashtags: ['#humor', '#eletricista', '#trabalho'],
@@ -3605,7 +3600,7 @@ const posts = [
             id: 51,
             name: 'Marcos Benicio',
             username: '@by_marcos',
-            avatar: 'http://localhost:8080/avatar/id/51'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/51'
         },
         content: 'Luzes piscando? Possível curto. Eu piscando? Possível sono. ⚡😴',
         hashtags: ['#eletricista', '#humor', '#vida'],
@@ -3619,7 +3614,7 @@ const posts = [
             id: 51,
             name: 'Marcos Benicio',
             username: '@by_marcos',
-            avatar: 'http://localhost:8080/avatar/id/51'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/51'
         },
         content: 'Se a eletricidade fosse dinheiro, eu seria milionário! 💸⚡😂',
         hashtags: ['#eletricista', '#humor', '#vida'],
@@ -3634,7 +3629,7 @@ const posts = [
             id: 52,
             name: 'Lore Macclincy',
             username: '@me_lore',
-            avatar: 'http://localhost:8080/avatar/id/52'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/52'
         },
         content: 'Woke up to a snowy morning and realized my coffee was the only thing keeping me warm. ❄️☕️',
         hashtags: ['#winter', '#coffee', '#morningvibes'],
@@ -3648,7 +3643,7 @@ const posts = [
             id: 52,
             name: 'Lore Macclincy',
             username: '@me_lore',
-            avatar: 'http://localhost:8080/avatar/id/52'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/52'
         },
         content: 'Trying to stay productive, but my cat clearly has other plans. 🐱😂',
         hashtags: ['#catlife', '#humor', '#workfromhome'],
@@ -3662,7 +3657,7 @@ const posts = [
             id: 52,
             name: 'Lore Macclincy',
             username: '@me_lore',
-            avatar: 'http://localhost:8080/avatar/id/52'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/52'
         },
         content: 'The maple syrup in Canada is not just a treat, it’s practically a lifestyle. 🍁🥞',
         hashtags: ['#canada', '#maplesyrup', '#life'],
@@ -3676,7 +3671,7 @@ const posts = [
             id: 52,
             name: 'Lore Macclincy',
             username: '@me_lore',
-            avatar: 'http://localhost:8080/avatar/id/52'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/52'
         },
         content: 'If snow falls in August, does it still count as summer? Asking for a friend. ❄️🤔',
         hashtags: ['#snow', '#canada', '#humor'],
@@ -3690,7 +3685,7 @@ const posts = [
             id: 52,
             name: 'Lore Macclincy',
             username: '@me_lore',
-            avatar: 'http://localhost:8080/avatar/id/52'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/52'
         },
         content: 'Nothing beats a warm fireplace and a good book on a chilly Canadian evening. 🔥📖',
         hashtags: ['#cozy', '#canada', '#reading'],
@@ -3705,7 +3700,7 @@ const posts = [
             id: 53,
             name: 'Bruno Silva',
             username: '@bruno09',
-            avatar: 'http://localhost:8080/avatar/id/53'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/53'
         },
         content: 'Fui tentar cozinhar e quase liguei o bombeiro no lugar do fogão',
         hashtags: ['#humor', '#cozinha', '#vidaReal'],
@@ -3719,7 +3714,7 @@ const posts = [
             id: 53,
             name: 'Bruno Silva',
             username: '@bruno09',
-            avatar: 'http://localhost:8080/avatar/id/53'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/53'
         },
         content: 'Segunda-feira chegou e trouxe todos os meus e-mails indesejados para a festa',
         hashtags: ['#trabalho', '#humor', '#segundaFeira'],
@@ -3733,7 +3728,7 @@ const posts = [
             id: 53,
             name: 'Bruno Silva',
             username: '@bruno09',
-            avatar: 'http://localhost:8080/avatar/id/53'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/53'
         },
         content: 'Meu cachorro parece que entende tudo que eu digo, mas escolhe ignorar todas as ordens',
         hashtags: ['#humor', '#vidaComPets', '#diversão'],
@@ -3747,7 +3742,7 @@ const posts = [
             id: 53,
             name: 'Bruno Silva',
             username: '@bruno09',
-            avatar: 'http://localhost:8080/avatar/id/53'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/53'
         },
         content: 'Comecei uma dieta hoje e meu cérebro já está planejando a fuga da geladeira',
         hashtags: ['#humor', '#dieta', '#vidaReal'],
@@ -3761,7 +3756,7 @@ const posts = [
             id: 53,
             name: 'Bruno Silva',
             username: '@bruno09',
-            avatar: 'http://localhost:8080/avatar/id/53'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/53'
         },
         content: 'Se rir é mesmo o melhor remédio, eu estou praticamente curado de tudo',
         hashtags: ['#humor', '#vidaReal', '#alegria'],
@@ -3776,7 +3771,7 @@ const posts = [
             id: 54,
             name: 'Bruna Gomes',
             username: '@eu_bruna_gomes',
-            avatar: 'http://localhost:8080/avatar/id/54'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/54'
         },
         content: 'Hoje acordei cedo… e me arrependi imediatamente',
         hashtags: ['#humor', '#vidaReal', '#sono'],
@@ -3790,7 +3785,7 @@ const posts = [
             id: 54,
             name: 'Bruna Gomes',
             username: '@eu_bruna_gomes',
-            avatar: 'http://localhost:8080/avatar/id/54'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/54'
         },
         content: 'Tentei ser produtiva, mas meu sofá me fez uma proposta que não pude recusar',
         hashtags: ['#humor', '#preguiça', '#vidaReal'],
@@ -3804,7 +3799,7 @@ const posts = [
             id: 54,
             name: 'Bruna Gomes',
             username: '@eu_bruna_gomes',
-            avatar: 'http://localhost:8080/avatar/id/54'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/54'
         },
         content: 'Meu computador travou de novo. Acho que ele está de greve silenciosa',
         hashtags: ['#humor', '#tecnologia', '#vidaReal'],
@@ -3818,7 +3813,7 @@ const posts = [
             id: 54,
             name: 'Bruna Gomes',
             username: '@eu_bruna_gomes',
-            avatar: 'http://localhost:8080/avatar/id/54'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/54'
         },
         content: 'Fui tentar organizar minha vida… e encontrei um monte de tarefas antigas que eu nem lembrava',
         hashtags: ['#humor', '#desorganização', '#vidaReal'],
@@ -3832,7 +3827,7 @@ const posts = [
             id: 54,
             name: 'Bruna Gomes',
             username: '@eu_bruna_gomes',
-            avatar: 'http://localhost:8080/avatar/id/54'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/54'
         },
         content: 'Se rir é saudável, então estou vivendo como uma atleta olímpica',
         hashtags: ['#humor', '#alegria', '#vidaReal'],
@@ -3847,7 +3842,7 @@ const posts = [
             id: 55,
             name: 'Vanda Junqueira',
             username: '@vanda_junqueira',
-            avatar: 'http://localhost:8080/avatar/id/55'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/55'
         },
         content: 'Acordei cedo pra me exercitar… e acabei me exercitando só para desligar o despertador',
         hashtags: ['#humor', '#preguiça', '#vidaReal'],
@@ -3861,7 +3856,7 @@ const posts = [
             id: 55,
             name: 'Vanda Junqueira',
             username: '@vanda_junqueira',
-            avatar: 'http://localhost:8080/avatar/id/55'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/55'
         },
         content: 'Segunda-feira chegou e trouxe aquele e-mail que ninguém quer ler',
         hashtags: ['#humor', '#trabalho', '#vidaReal'],
@@ -3875,7 +3870,7 @@ const posts = [
             id: 55,
             name: 'Vanda Junqueira',
             username: '@vanda_junqueira',
-            avatar: 'http://localhost:8080/avatar/id/55'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/55'
         },
         content: 'Meu gato decidiu sentar no teclado e agora meu relatório tem mais histórias que dados',
         hashtags: ['#humor', '#gatos', '#vidaReal'],
@@ -3889,7 +3884,7 @@ const posts = [
             id: 55,
             name: 'Vanda Junqueira',
             username: '@vanda_junqueira',
-            avatar: 'http://localhost:8080/avatar/id/55'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/55'
         },
         content: 'Decidi cozinhar hoje… e agora estou negociando com o micro-ondas',
         hashtags: ['#humor', '#cozinha', '#vidaReal'],
@@ -3903,7 +3898,7 @@ const posts = [
             id: 55,
             name: 'Vanda Junqueira',
             username: '@vanda_junqueira',
-            avatar: 'http://localhost:8080/avatar/id/55'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/55'
         },
         content: 'Se rir fosse exercício físico, eu estaria pronta para a maratona',
         hashtags: ['#humor', '#alegria', '#vidaReal'],
@@ -3918,7 +3913,7 @@ const posts = [
             id: 56,
             name: 'Mariana Santino',
             username: '@mah_santino',
-            avatar: 'http://localhost:8080/avatar/id/56'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/56'
         },
         content: 'Acordei motivada… até olhar a lista de tarefas e perceber que meu sofá é mais convincente',
         hashtags: ['#humor', '#preguiça', '#vidaReal'],
@@ -3932,7 +3927,7 @@ const posts = [
             id: 56,
             name: 'Mariana Santino',
             username: '@mah_santino',
-            avatar: 'http://localhost:8080/avatar/id/56'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/56'
         },
         content: 'Segunda-feira chegou trazendo reuniões e café frio, a combinação perfeita',
         hashtags: ['#humor', '#trabalho', '#segundaFeira'],
@@ -3946,7 +3941,7 @@ const posts = [
             id: 56,
             name: 'Mariana Santino',
             username: '@mah_santino',
-            avatar: 'http://localhost:8080/avatar/id/56'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/56'
         },
         content: 'Meu cachorro resolveu me ensinar a importância da soneca diária',
         hashtags: ['#humor', '#pets', '#vidaReal'],
@@ -3960,7 +3955,7 @@ const posts = [
             id: 56,
             name: 'Mariana Santino',
             username: '@mah_santino',
-            avatar: 'http://localhost:8080/avatar/id/56'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/56'
         },
         content: 'Decidi fazer dieta… mas a geladeira começou a me fazer propostas tentadoras',
         hashtags: ['#humor', '#dieta', '#vidaReal'],
@@ -3974,7 +3969,7 @@ const posts = [
             id: 56,
             name: 'Mariana Santino',
             username: '@mah_santino',
-            avatar: 'http://localhost:8080/avatar/id/56'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/56'
         },
         content: 'Se rir fosse esporte, eu já estaria treinando para as olimpíadas',
         hashtags: ['#humor', '#alegria', '#vidaReal'],
@@ -3989,7 +3984,7 @@ const posts = [
             id: 57,
             name: 'Madalena Buarque',
             username: '@a_madah',
-            avatar: 'http://localhost:8080/avatar/id/57'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/57'
         },
         content: 'Acordei pensando em ser produtiva… e acabei negociando mais cinco minutos de sono',
         hashtags: ['#humor', '#preguiça', '#vidaReal'],
@@ -4003,7 +3998,7 @@ const posts = [
             id: 57,
             name: 'Madalena Buarque',
             username: '@a_madah',
-            avatar: 'http://localhost:8080/avatar/id/57'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/57'
         },
         content: 'Segunda-feira: quando o café é mais convincente que qualquer plano de vida',
         hashtags: ['#humor', '#trabalho', '#café'],
@@ -4017,7 +4012,7 @@ const posts = [
             id: 57,
             name: 'Madalena Buarque',
             username: '@a_madah',
-            avatar: 'http://localhost:8080/avatar/id/57'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/57'
         },
         content: 'Meu gato acha que eu sou empregado dele e não o contrário',
         hashtags: ['#humor', '#pets', '#vidaReal'],
@@ -4031,7 +4026,7 @@ const posts = [
             id: 57,
             name: 'Madalena Buarque',
             username: '@a_madah',
-            avatar: 'http://localhost:8080/avatar/id/57'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/57'
         },
         content: 'Tentei cozinhar hoje e o resultado quase me convenceu a pedir delivery para sempre',
         hashtags: ['#humor', '#cozinha', '#vidaReal'],
@@ -4045,7 +4040,7 @@ const posts = [
             id: 57,
             name: 'Madalena Buarque',
             username: '@a_madah',
-            avatar: 'http://localhost:8080/avatar/id/57'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/57'
         },
         content: 'Se rir fosse um esporte, minha medalha de ouro já estaria garantida',
         hashtags: ['#humor', '#alegria', '#vidaReal'],
@@ -4060,7 +4055,7 @@ const posts = [
             id: 58,
             name: 'Isabella Fliorine',
             username: '@isah_7',
-            avatar: 'http://localhost:8080/avatar/id/58'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/58'
         },
         content: 'Tentei começar a dieta hoje… mas meu coração e minha geladeira não entraram em acordo',
         hashtags: ['#humor', '#dieta', '#vidaReal'],
@@ -4074,7 +4069,7 @@ const posts = [
             id: 58,
             name: 'Isabella Fliorine',
             username: '@isah_7',
-            avatar: 'http://localhost:8080/avatar/id/58'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/58'
         },
         content: 'Meu café da manhã estava tão bom que até considerei uma promoção para continuar dormindo',
         hashtags: ['#humor', '#café', '#vidaReal'],
@@ -4088,7 +4083,7 @@ const posts = [
             id: 58,
             name: 'Isabella Fliorine',
             username: '@isah_7',
-            avatar: 'http://localhost:8080/avatar/id/58'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/58'
         },
         content: 'Decidi limpar a casa e acabei limpando só a vontade de trabalhar',
         hashtags: ['#humor', '#vidaReal', '#preguiça'],
@@ -4102,7 +4097,7 @@ const posts = [
             id: 58,
             name: 'Isabella Fliorine',
             username: '@isah_7',
-            avatar: 'http://localhost:8080/avatar/id/58'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/58'
         },
         content: 'Meu cachorro parece mais disciplinado que eu… e isso diz muito sobre minha vida',
         hashtags: ['#humor', '#pets', '#vidaReal'],
@@ -4116,7 +4111,7 @@ const posts = [
             id: 58,
             name: 'Isabella Fliorine',
             username: '@isah_7',
-            avatar: 'http://localhost:8080/avatar/id/58'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/58'
         },
         content: 'Se rir fosse trabalho, hoje eu estaria de férias permanentes',
         hashtags: ['#humor', '#alegria', '#vidaReal'],
@@ -4131,7 +4126,7 @@ const posts = [
             id: 59,
             name: 'Antônio Carlos Magalhâes',
             username: '@antonio_carlos8',
-            avatar: 'http://localhost:8080/avatar/id/59'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/59'
         },
         content: 'Passei o dia tentando calcular estruturas… e acabei calculando só quantas xícaras de café eu precisava',
         hashtags: ['#humor', '#engenharia', '#vidaReal'],
@@ -4145,7 +4140,7 @@ const posts = [
             id: 59,
             name: 'Antônio Carlos Magalhâes',
             username: '@antonio_carlos8',
-            avatar: 'http://localhost:8080/avatar/id/59'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/59'
         },
         content: 'Engenharia é maravilhosa, até você perceber que sua planta está de cabeça para baixo',
         hashtags: ['#humor', '#engenharia', '#vidaReal'],
@@ -4159,7 +4154,7 @@ const posts = [
             id: 59,
             name: 'Antônio Carlos Magalhâes',
             username: '@antonio_carlos8',
-            avatar: 'http://localhost:8080/avatar/id/59'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/59'
         },
         content: 'Meu capacete me protege, mas não protege das minhas próprias ideias mirabolantes',
         hashtags: ['#humor', '#engenharia', '#vidaReal'],
@@ -4173,7 +4168,7 @@ const posts = [
             id: 59,
             name: 'Antônio Carlos Magalhâes',
             username: '@antonio_carlos8',
-            avatar: 'http://localhost:8080/avatar/id/59'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/59'
         },
         content: 'Tentei organizar o canteiro de obras e organizei apenas minha paciência',
         hashtags: ['#humor', '#engenharia', '#vidaReal'],
@@ -4187,7 +4182,7 @@ const posts = [
             id: 59,
             name: 'Antônio Carlos Magalhâes',
             username: '@antonio_carlos8',
-            avatar: 'http://localhost:8080/avatar/id/59'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/59'
         },
         content: 'Se rir fosse concreto, meu prédio já estaria de pé há anos',
         hashtags: ['#humor', '#engenharia', '#alegria'],
@@ -4202,7 +4197,7 @@ const posts = [
             id: 60,
             name: 'Júlia Rodrigues',
             username: '@juh_rodrigues7',
-            avatar: 'http://localhost:8080/avatar/id/60'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/60'
         },
         content: 'Passei o dia tirando fotos… e percebi que minha própria vida precisa de filtro',
         hashtags: ['#humor', '#fotografia', '#vidaReal'],
@@ -4216,7 +4211,7 @@ const posts = [
             id: 60,
             name: 'Júlia Rodrigues',
             username: '@juh_rodrigues7',
-            avatar: 'http://localhost:8080/avatar/id/60'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/60'
         },
         content: 'Tentei organizar minhas redes sociais, mas minhas notificações têm vida própria',
         hashtags: ['#humor', '#socialMedia', '#vidaReal'],
@@ -4230,7 +4225,7 @@ const posts = [
             id: 60,
             name: 'Júlia Rodrigues',
             username: '@juh_rodrigues7',
-            avatar: 'http://localhost:8080/avatar/id/60'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/60'
         },
         content: 'Meu cachorro se tornou meu assistente de fotos… e o mais bagunceiro',
         hashtags: ['#humor', '#fotografia', '#pets'],
@@ -4244,7 +4239,7 @@ const posts = [
             id: 60,
             name: 'Júlia Rodrigues',
             username: '@juh_rodrigues7',
-            avatar: 'http://localhost:8080/avatar/id/60'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/60'
         },
         content: 'Decidi criar um novo projeto de fotos… mas a inspiração decidiu tirar férias',
         hashtags: ['#humor', '#fotografia', '#vidaReal'],
@@ -4258,7 +4253,7 @@ const posts = [
             id: 60,
             name: 'Júlia Rodrigues',
             username: '@juh_rodrigues7',
-            avatar: 'http://localhost:8080/avatar/id/60'
+            avatar: 'https://social-kit-api.onrender.com/avatar/id/60'
         },
         content: 'Se rir fosse arte, eu já teria uma galeria inteira',
         hashtags: ['#humor', '#alegria', '#vidaReal'],
