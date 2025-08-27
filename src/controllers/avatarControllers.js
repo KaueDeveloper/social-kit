@@ -1,5 +1,4 @@
 //Controladores das rotas de geração de avatares
-const { error } = require('console');
 const avatars = require('../data/avatars');
 const path = require('path');
 

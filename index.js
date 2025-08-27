@@ -8,6 +8,7 @@ const nameRoutes = require('./src/routes/name');
 const avatarRoutes = require('./src/routes/avatar');
 const postRoutes = require('./src/routes/post');
 const bannerRoutes = require('./src/routes/banner');
+const bioRoutes = require('./src/routes/bio');
 
 //Rotas de usuários fakes
 API.use('/', fakeUserRoutes);
@@ -26,6 +27,9 @@ API.use('/', postRoutes);
 
 //Rotas de banners
 API.use('/', bannerRoutes);
+
+//Rotas de bios
+API.use('/', bioRoutes);
 
 API.listen(8080, () => {
     console.log('Servidor rodando');

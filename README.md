@@ -38,3 +38,10 @@ Utilitários essenciais para construção de redes sociais: validação de dados
 /post/all - gera todas as postagens da API
 /post/all?limit=(algum número) - delimita a quantidade de postagens que serão geradas
 /post/all//user/:user - gera todas as postagens de algum usuário
+
+--Geração de banners--
+/banner/random - gera um banner aleatório
+/banner/id/(algum número) - seleciona um banner manualmente pelo id
+
+--Geração de bios--
+/bio/random - gera uma bio aleatória
