@@ -1,5 +1,31 @@
 {
+  "name": "social-kit-api",
+  "version": "1.0.0",
+  "description": "Utilitários essenciais para construção de redes sociais: validação de dados, geração de avatares aleatórios e criação de perfis falsos para testes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "social-kit",
+    "api",
+    "faker",
+    "usuarios",
+    "bios",
+    "avatars",
+    "nodejs",
+    "express"
+  ],
+  "author": "Kauê Barreto Benicio",
+  "license": "MIT",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
