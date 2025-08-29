@@ -81,7 +81,7 @@ function emailForDomain(req, res) {
         }
 
         if(mails.length === 0) {
-            return res.status(400).json({error: 'Você deve fornecer um domínio de email válido, são aceitos somente os domínios: gmail.com, yahoo.com, hotmail.com, outlook.com, live.com, icloud.com, gmx.com e protonmail.com. Ex: /email/gmail.com'});
+            return res.status(400).json({error: 'Você deve fornecer um domínio de email válido, são aceitos somente os domínios: gmail.com, yahoo.com, hotmail.com, outlook.com, live.com, icloud.com, gmx.com e protonmail.com. Ex: /email/random/gmail.com'});
         }
 
         const u = Math.floor(Math.random() * mails.length);

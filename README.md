@@ -45,3 +45,15 @@ Utilitários essenciais para construção de redes sociais: validação de dados
 
 --Geração de bios--
 /bio/random - gera uma bio aleatória
+
+--Geração de mídias--
+/media/image/:image - gera uma mídia de imagem por seleção
+/media/random/image - gera uma mídia de imagem aleatória
+/media/random/image/:category - gera uma mídia de imagem aleatória por categoria
+/media/video/:video - gera uma mídia de vídeo por seleção
+/media/random/video - gera uma mídia de vídeo aleatória
+/media/random/video/:category - gera uma mídia de vídeo aleatória por categoria
+
+Categorias de mídias de imagens: selfie, peoples;
+
+Categorias de mídias de vídeos: animals, cat, dog, peoples;
